@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>More Pseudo-Class and Pseudo-Element Examples</title>
+  <style>
+    /* Pseudo-class: :focus */
+    input:focus {
+      border: 2px solid green;
+      background-color: yellow;
+    }
+
+    /* Pseudo-class: :last-child */
+   .items div:last-child
+{
+      color: green;
+      font-weight: bold;
+    }
+
+    /* Pseudo-element: ::after */
+    .note::after {
+      content: " ✔️";
+      color: green;
+    }
+
+    /* Pseudo-element: ::first-line */
+    .description::first-line {
+      font-weight: bold;
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Other Pseudo-Class & Pseudo-Element Examples</h2>
+
+  <!-- Input for :focus -->
+  <label>Enter your name:</label>
+  <input type="text" placeholder="Click to see focus effect">
+
+  <hr>
+
+  <!-- Divs for :last-child -->
+  <div class="items">
+    <div>Item One</div>
+    <div>Item Two</div>
+    <div>Last Item</div>
+  </div>
+
+  <hr>
+
+  <!-- Paragraph for ::after -->
+  <p class="note">This is an important note</p>
+
+  <!-- Paragraph for ::first-line -->
+  <p class="description">
+    This paragraph's first line will be bold and purple when the text wraps to multiple lines. Add more content here to test it.
+  </p>
+
+</body>
+</html>

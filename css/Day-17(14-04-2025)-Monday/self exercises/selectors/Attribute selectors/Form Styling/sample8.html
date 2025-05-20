@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body
+{
+border:none;
+padding:30px;
+font-family:verdana;
+}
+form {
+  border: 2px solid orange;
+  padding: 30px;
+  width: 250px;
+  margin:auto; /* Horizontally center */
+  text-align: left; /* Keep form content aligned properly */
+  border-radius: 10px;
+}
+
+input[type="text"],[type="number"],[type="submit"],[type="date"]
+{
+display:block;
+width:200px;
+margin-bottom:30px;
+}
+input[type="submit"]
+{
+margin-left:2px;
+background-color:orange;
+color:white;
+border:none;
+padding:6px;
+border-radius:7px;
+}
+label
+{
+font-weight:bold;
+}
+h1
+{
+color:orange;
+
+}
+</style>
+</head>
+<body>
+<form action="sample8.html" method="post">
+<h1><center>Entry Form</center></h1>
+<center>
+<label>Name:</label><input type="text" name="name" placeholder="enter your name">
+<label>DOB:</label><input type="date" name="dob" value="2002-02-24">
+<label>Marks:</label><input type="number" name="marks" placeholder="enter your marks">
+<input type="submit" name="submit" value="submit">
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title>ATM Code</title>
+<script>
+function display()
+{
+ let count=1;
+ let default1=0;
+ while((count<=3)&&(default1==0))
+ {
+ let atm_pass=(parseInt(prompt('enter your password')));
+ if(atm_pass==1234)
+ {
+  default1=1;
+ }
+ count++;
+ }
+ if(default1==1)
+ {
+  alert("valid pin number authenticated");
+ }
+ else
+ {
+  alert(" Entered wrong pin 3 times. Account locked");
+ }
+ }
+</script>
+</head>
+<body>
+<input type="button" onclick="display()" value="click"/>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-6-function within objects</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const person=new Object();
+person.firstname="Gokul";
+person.lastname="Nath";
+person.fullname=function()
+{
+return this.firstname+" - "+this.lastname;
+}
+
+document.getElementById("demo").innerHTML=person.fullname();
+</script>
+</body>
+</html>

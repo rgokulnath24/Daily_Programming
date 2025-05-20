@@ -1,0 +1,300 @@
+constructor with parameters
+----------------------------------
+
+<html>
+<head>
+<script>
+
+class myclass
+{
+
+constructor(x, y)
+{
+
+this.a=x;
+this.b=y;
+
+}
+
+
+addition()
+{
+ this.c=this.a+this.b;
+ document.write(" result is "+ this.c);
+
+}
+
+}
+
+</script>
+</head>
+<body>
+
+<script>
+
+s1=new myclass(500, 700); // s1=[1000]=[a=500, b700, c=1200, initialize(), addition() ]
+
+
+s1.addition();
+
+</script>
+
+</body>
+</html>
+
+
+
+
+NOTE: the following sample will not run for constructor overloading
+
+sample
+------------
+<html>
+<head>
+<script>
+
+class myclass
+{
+
+constructor()
+{
+
+this.a=100;
+this.b=200;
+
+}
+
+
+
+constructor(x, y)
+{
+
+this.a=x;
+this.b=y;
+
+}
+
+
+addition()
+{
+ this.c=this.a+this.b;
+ document.write(" result is "+ this.c);
+
+}
+
+}
+
+</script>
+</head>
+<body>
+
+<script>
+
+s1=new myclass(); // s1=[1000]=[a=100, b=200, c=300, constructor(), constructor(x,y), addition() ]
+s2=new myclass(300, 400)// s2=[1000]=[a=300, b=400, c=700, constructor(), constructor(x,y), addition() ]
+
+s1.addition();
+
+</script>
+
+</body>
+</html>
+
+-----------------------------------------------------
+
+inheritance
+----------------------
+<html>
+<head>
+<script>
+
+class myclass1
+{
+
+initialize()
+{
+
+this.a=100;
+this.b=200;
+
+}
+
+
+
+addition()
+{
+ this.c=this.a+this.b;
+ document.write(" result is "+ this.c +"<br>");
+
+}
+
+}
+
+class myclass2 extends myclass1
+{
+
+subtraction()
+{
+this.c=this.a-this.b;
+document.write(" subtraction result " + this.c+"<br>");
+
+
+}
+
+}
+
+</script>
+</head>
+<body>
+
+<script>
+
+m2=new myclass2(); //m2=[2000]=[c, subtraction()]
+
+m2.initialize();
+m2.addition();
+m2.subtraction();
+
+
+</script>
+
+</body>
+</html>
+
+inheritance types
+------------------------
+1. single level inheritance
+
+   A
+   |
+   B
+
+2. multi level
+
+   A
+   |
+   B
+   |
+   C
+
+
+3. multiple inheritance - not supported
+
+  A      B
+  |      |
+   ------
+     |
+     C
+
+4. hierarchial
+
+      A
+     / \
+    B   C
+   / \
+  E   F
+
+
+5. hybrid - not supported 
+
+multiple + multi level = hybrid
+
+
+
+A
+|
+B      C
+|      |
+ -----
+   |
+   D
+
+multi level
+
+A
+|
+B
+|
+D
+
+multiple
+
+B     C
+   D
+
+    A
+  /   \
+ B     C
+  \   /
+    D
+  
+
+    A
+   / \
+ B     C
+       / \
+      E   F
+           \
+            A
+
+----------------------------------------
+            scope               reassign      redeclartion
+ 
+let        block                  yes              no
+
+const      block                  no               no
+ 
+var       function level          yes              yes
+
+
+sample
+-------------
+
+<html>
+<head>
+<script>
+
+
+a=1000;
+
+function display()
+{
+
+
+  {
+//    var a=100;
+//    var a=200
+    alert(" inside local block " + a);
+  }
+
+   alert("outside local block " + a);
+
+}
+
+
+
+</script>
+</head>
+<body>
+
+<script>
+alert(a);
+</script>
+<form>
+
+<input type="button" value="button1"  onclick="display()" />
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

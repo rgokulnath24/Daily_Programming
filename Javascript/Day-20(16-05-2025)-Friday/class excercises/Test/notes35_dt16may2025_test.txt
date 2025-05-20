@@ -1,0 +1,22 @@
+batch 4.30pm -6pm
+---------------------------------
+
+1. write a code to find no of occurances of particular number using array concept
+
+2. explain about dom model and document object with sample.
+
+3. what is validation . implement a sample for validation 
+
+4. what is class and object. write a code for class and object
+
+5. what is operator? explain it in detail
+
+6. what is decision making statements. explain it in coding 
+
+7. what is looping statements. explain in details
+
+8. what is inheritance. explain it in coding
+
+9. explain about constructor.
+
+10. explain about constructor with parameters, write a code for it,

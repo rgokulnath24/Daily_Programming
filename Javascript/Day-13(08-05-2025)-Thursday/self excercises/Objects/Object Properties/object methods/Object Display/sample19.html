@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-19</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const details=
+{
+first_name:"gokul",
+last_name:"rajamanickam"
+}
+let text="";
+for(let x in details)
+{
+ text=text+"-"+details[x];
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>Armstong Number</title>
+</head>
+<body>
+<input type="button" value="click" onclick="number()"/>
+<script>
+function number()
+{
+let num=(parseInt(prompt("enter the number")));
+let sum=0;
+let num_count=num.toString().length; 
+let digits=num;
+while(num>0)
+{
+let num1=(num%10); 
+sum=sum+(num1**num_count);  
+num=(Math.floor(num/10));   
+}
+if(sum==digits)
+{
+alert("It is a Armstrong number");
+}
+else
+{
+alert("It is not a Armstrong number");
+}
+}
+</script>
+</body>
+</html>

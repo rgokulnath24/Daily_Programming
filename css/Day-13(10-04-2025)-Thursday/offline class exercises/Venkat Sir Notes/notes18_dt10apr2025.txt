@@ -1,0 +1,910 @@
+background-color: rgb( 255, 0, 0);   red
+background-color: rgb( 0, 255, 0);  green
+background-color: rgb( 0, 0, 255);  - blue
+background-color: rgb( 255, 255, 255); white
+background-color: rgb( 0,0,0); black
+background-color: rgb( 50, 50, 50); grey near black
+background-color: rgb( 220, 220, 220); grey near white
+
+sample
+-------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: rgb( 220, 220, 220);
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+sample
+---------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: rgba( 255, 0,0, 1.0);
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+decimal - 0-9
+binary  - 0-1
+octal   - 0-7
+hexa    - 0-15 - 0-9,A,B,C,D,E,F
+
+decimal  - 10
+hexadecimal - A
+
+F
+|___ F * 16 power 0 - 15 * 1 = 15
+
+F F
+| |____ F * 16 power 0 - 15 * 1  = 15
+|______ F * 16 power 1 - 15 * 16 = 240
+                                -------
+                                    255
+                                  ------------
+
+
+
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+---------------------------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border:10px solid red;
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+-------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:20px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+-------------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-left-width:5px;
+border-top-width:10px;
+border-right-width:15px;
+border-bottom-width:20px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+----------------------------------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:10px 30px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+----------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:10px 20px 40px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+------------------------------------------------------------------
+background-color: rgb( 255, 0, 0);   red
+background-color: rgb( 0, 255, 0);  green
+background-color: rgb( 0, 0, 255);  - blue
+background-color: rgb( 255, 255, 255); white
+background-color: rgb( 0,0,0); black
+background-color: rgb( 50, 50, 50); grey near black
+background-color: rgb( 220, 220, 220); grey near white
+
+sample
+-------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: rgb( 220, 220, 220);
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+sample
+---------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: rgba( 255, 0,0, 1.0);
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+decimal - 0-9
+binary  - 0-1
+octal   - 0-7
+hexa    - 0-15 - 0-9,A,B,C,D,E,F
+
+decimal  - 10
+hexadecimal - A
+
+F
+|___ F * 16 power 0 - 15 * 1 = 15
+
+F F
+| |____ F * 16 power 0 - 15 * 1  = 15
+|______ F * 16 power 1 - 15 * 16 = 240
+                                -------
+                                    255
+                                  ------------
+
+
+
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+---------------------------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border:10px solid red;
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+-------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:20px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+-------------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-left-width:5px;
+border-top-width:10px;
+border-right-width:15px;
+border-bottom-width:20px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+----------------------------------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:10px 30px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+----------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+border-style:solid;
+border-color:brown;
+border-width:10px 20px 40px;
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+-----------------------------------------------------
+
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+
+border-width:10px;
+border-color:violet;
+
+border-style:solid;
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+---------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+
+border-width:10px;
+border-color:violet;
+
+border-left-style:solid;
+border-top-style:dashed;
+border-right-style:dotted;
+border-bottom-style:double;
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+------------------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+
+border-width:10px;
+border-color:violet;
+
+border-style:solid dotted;
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+-----------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+
+border-width:10px;
+border-color:violet;
+
+border-style:solid dotted dashed;
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+----------------------------------
+<html>
+
+<head>
+
+<style>
+
+div
+{
+
+height:100px;
+background-color: #555555;
+font-size:40px;
+
+
+border-width:10px;
+border-color:violet;
+
+border-style:solid double dashed dotted;
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+  sample text
+
+</div>
+
+
+</body>
+
+</html>
+
+
+

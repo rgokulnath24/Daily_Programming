@@ -1,0 +1,433 @@
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+
+document.write(" hello");
+
+let x=10;
+document.write(" value is " + x);
+
+let a=10, b=20.5;
+document.write(" a = " + a + " b = " + b);
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+
+console.log(" hello");
+
+let x=10;
+console.log(" value is " + x);
+
+let a=10, b=20.5;
+console.log(" a = " + a + " b = " + b);
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+-----------------------------------------------------------
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+
+document.write("<html><body style='background-color:green;'> this is console.log output </body></html>");
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+operators
+------------------
+ symbols used for arithmetic and logical operations
+
+1. arithmetic 
+   +, -, *, /, %
+
+2. assignment
+ =
+
+3. increment and decrement operator
+  ++, --
+
+4. realtional or comparison 
+  >, < >=, <=,==, !=
+
+5. logical 
+  &&-and, ||-or, !-not
+
+6. arithmetic assignment
+   +=, -=, *=, /=, %=
+
+7. conditional
+   ?:
+
+
+
+--------------------
+
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let a=3, b=10;
+
+let c=parseInt(a/b); //   3/10 = 
+let d=a%b;  // remainder 3%10 = 
+
+document.write(" quotient is " + c+"<br>");
+document.write(" remainder is " + d+"<br>");
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+---------------------------
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let mark= parseInt( prompt("enter ur mark") );
+
+if( mark >= 35)
+{
+  document.write("pass");
+}
+else
+{
+ document.write("fail");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+-----------------------------------------------------------------
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let username=prompt("enter ur name");
+
+if (username == "admin")
+{
+alert("valid user");
+}
+else
+{
+alert("invalid user");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+
+------------------------------
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let a="10";
+
+if (a===10)  //false
+{
+alert("true");
+}
+else
+{
+alert("false");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+------------------------
+|| or  operator
+  if any condition is true the end result will become true
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let color=prompt("enter a color");
+
+if( color=="red" || color=="green")
+{
+  alert("favourite color");
+}
+else
+{
+   alert("not favourite color");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+-------------------------------------------------------------
+&& and operatr
+  if any condition is false the end result will become false
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let username=prompt("enter user name ");
+let password=prompt("enter password");
+
+if( (username=="admin") &&  (password=="pass@123"))
+{
+  alert("valid user");
+}
+else
+{
+   alert("invalid user");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+----------------------------------------------------------------------
+
+1. write a code to check whether given number is 3 digit or not
+2. get a number if it is equal to 10 or 100 then print "fav number "otherwise print "not fav number"
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Account-Login</title>
+<script>
+function display()
+{
+let username=(prompt("enter username:"));
+let password=(prompt("enter password:"));
+if((username== "admin")&&(password=="pass@123"))
+{
+document.write("Admin Account");
+}
+else
+{
+document.write("Invalid Account");
+}
+}
+</script>
+</head>
+<body>
+<input type="button" value="click" onclick="display()"/>
+</body>
+</html>

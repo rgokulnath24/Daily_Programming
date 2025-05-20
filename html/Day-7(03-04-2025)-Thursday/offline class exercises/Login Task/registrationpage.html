@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table
+{
+border:2px solid black;
+
+}
+th,tr,td
+{
+padding:20px;
+}
+tr
+{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<br>
+<table align="center">
+<form action="sample.html" method="post">
+<tr><th colspan="2">Student Registration form</th></tr>
+<tr><td>First Name:</td><td><input type="text" name="first_name"></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="last_name"></td></tr>
+<tr><td>Gender:</td><td><input type="radio" name="gender">Male</input>
+<input type="radio" name="gender">Female</input></td></tr>
+<tr><td>Languages Known:</td>
+<td><input type="checkbox" name="tamil">Tamil</input>
+<input type="checkbox" name="English">English</input>
+<input type="checkbox" name="Hindi">Hindi</input></td>
+</tr>
+<tr><td>Phone:</td><td><input type="number" name="phone"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password"></td></tr>
+<tr><td>Confirm Password:</td><td><input type="password" name="confirm_password"></td></tr>
+<tr><td align="right"><input type="reset" name="reset" value="Cancel"/></td><td><input type="submit" value="Submit"/></td></tr>
+</form>
+
+</table>
+</body>
+</html>

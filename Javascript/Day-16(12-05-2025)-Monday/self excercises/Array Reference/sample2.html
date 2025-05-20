@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>For each array</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const foods=["grilled","Mayonise","Sauce"];
+let text="";
+foods.forEach(display);
+function display(index,value,array)
+{
+text=text+value+"<br>";
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+form controls
+----------------------
+ it is used for input and output data handling for users
+
+sample
+---------------
+<html>
+<head>
+
+</head>
+<body>
+<form>
+
+<input type="text"  name="text1" /> <br>
+<input type="password"  name="password1" /> <br>
+<input type="button"  value="click" name="button1" /><br>
+<input type="submit" value="submit" name="submit1" /> <br>
+<input type="radio" name="gender"> male </input> 
+<input type="radio" name="gender"> female </input>  <br>
+<input type="checkbox" name="checkbox1"> I accept </input> <br>
+<input type="reset" name="reset1" value="reset button" />
+
+</form>
+</body>
+
+</html>
+
+
+sample
+---------------
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<form action="sample1.html" method="post">
+
+<input type="text"  name="text1" /> <br>
+<input type="password"  name="password1" /> <br>
+<input type="button"  value="click" name="button1" /><br>
+<input type="submit" value="submit" name="submit1" /> <br>
+<input type="radio" name="gender"> male </input> 
+<input type="radio" name="gender"> female </input>  <br>
+<input type="checkbox" name="checkbox1"> I accept </input> <br>
+<input type="reset" name="reset1" value="reset button" />
+
+
+</form>
+
+</body>
+
+</html>
+
+
+------------------------------------------------
+action : it is used to redirect to the particular page
+method: get or post
+
+get :
+
+* data are visible in url
+* limited data size
+* faster compared with post
+
+
+post :
+
+* data are invisible in url
+*  large numbe rof data
+* slower compared with get
+
+
+sample
+-----------------
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<form action="sample1.html" method="post">
+
+<input type="text"  name="text1" /> <br>
+<input type="password"  name="password1" /> <br>
+<input type="button"  value="click" name="button1" /><br>
+<input type="submit" value="submit" name="submit1" /> <br>
+<input type="radio" name="gender"> male </input> 
+<input type="radio" name="gender"> female </input>  <br>
+<input type="checkbox" name="checkbox1"> I accept </input> <br>
+<input type="reset" name="reset1" value="reset button" />
+
+
+</form>
+
+</body>
+
+</html>
+
+
+
+login sample
+-------------------------
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<form action="sample1.html" method="post">
+
+<table  border="2"  width="100%" height="300" >
+
+<tr>
+<td align="right" width="50%"> USERNAME </td>
+<td> <input type="text"  name="text1"  />  </td>
+</tr>
+
+<tr>
+<td align="right"> PASSWORD </td>
+<td> <input type="password"  name="password1" /> </td>
+</tr>
+
+
+<tr>
+<td align="right"> <input type="submit"  name="submit1" value="LOGIN"  />  </td>
+<td> <input type="reset" name="reset1"   value="CANCEL" /> </td>
+</tr>
+
+
+</table>
+
+
+
+
+
+</form>
+
+</body>
+
+</html>
+
+

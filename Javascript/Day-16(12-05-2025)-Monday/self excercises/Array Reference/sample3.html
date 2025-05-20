@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>For each array Map</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const foods1=[1,2,3];
+const foods2=foods1.map(display);
+function display(value,index,array)
+{
+return value*10;
+}
+document.getElementById("demo").innerHTML=foods2;
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+<title>Nested If Else structure</title>
+<style>
+
+</style>
+
+<script>
+
+function display()
+{
+
+let marks1= parseFloat(  prompt("enter Round 1 score "));
+
+if (marks1>=7.5)
+{
+  alert("congrats.Round 1 cleared");
+
+  let marks2= parseFloat( prompt("enter Round 2 score"));
+  
+  if( marks2>=8.5)
+  {
+     alert("congrats.Round 2 cleared and you got the job");
+  }
+  else
+  {
+    alert("Sorry,you have Failed in round 2");
+  }
+
+
+}
+else
+{
+  alert("Sorry,you have Failed in round 1");
+} 
+
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onmouseover="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body
+{
+font-family:sans-serif;
+}
+ul li
+{
+list-style-type:none;
+width:150px;
+height:20px;
+background-color:gray;
+padding:2px;
+color:white;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Shopping cart</h1>
+<input type="text" id="textinput" placeholder="enter the item"/>
+<button type="button" value="add" onclick="item_add()">Add</button>
+<ul id="cartlist"></ul>
+</center>
+<script>
+let cart=[];
+function item_add()
+{
+let item=document.getElementById("textinput").value.trim();
+if(item==="")
+{
+return alert("Empty Item should not be added");
+}
+cart.push(item);
+
+let items=document.getElementById("textinput");
+items.value="";
+item_update();
+}
+function item_delete(index)
+{
+cart.splice(index,1);
+item_update();
+}
+function item_update()
+{
+let cart_list=document.getElementById("cartlist");
+cartlist.innerHTML="";
+cart.forEach((item,index)=>{
+let li=document.createElement("li");
+li.innerHTML=`${item}<button type="button" value="remove" onclick="item_delete(${index})">Remove</button>`;
+cart_list.appendChild(li)
+});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+oops - object oriented programming structure
+------------------------------------------------------
+
+1. class
+    it is collection of objects or collection of informations
+
+2. object
+   it is real entity of the class or runtime instance of the class
+  
+3. data abstraction
+    process of extracting only the relavant information
+ 
+4. encapsulation
+    process of combining data members and member functions into a single unit
+
+5. inheritance
+    creating new classes from the existing class
+   
+6. polymorphism
+    same entity with different functionalities
+   
+sample
+-------------------
+<html>
+
+<head>
+
+<script>
+
+class student
+{
+
+ getdetails( rno, nme, mrk)
+  {
+    this.rollno=rno;
+    this.name=nme;
+    this.mark=mrk;
+  }
+
+ displaydetails()
+  {
+    document.write(" rollno : " + this.rollno+"<br>");
+    document.write(" name : " + this.name+"<br>");
+    document.write(" mark : " + this.mark+"<br>");
+  }
+
+
+
+}
+
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<script>
+
+s1=new student(); // s1=[1000] = {rollno=1, name=aaa, mark=60, getdetails(), displaydetails()}
+s2=new student(); // s2=[2000] = {rollno=2, name=bbb, mark=70, getdetails(), displaydetails()}
+
+s1.getdetails(1, "aaa", 60);
+s2.getdetails(2, "bbb", 70);
+
+s1.displaydetails(); 
+s2.displaydetails();
+
+</script>
+
+</body>
+
+</html>
+
+
+inheritance
+---------------------
+ creating new classes from existing class. class from which data are inherited is base class [parent class, super class] and class to which data are inherited is derived class [ child class, sub class]
+
+
+<html>
+
+<head>
+
+<script>
+
+class myclass1
+{
+
+initialize()
+{
+
+this.a=100;
+this.b=50;
+
+}
+
+
+addition()
+{
+  this.c=this.a+this.b;
+  document.write(" addition result is " + this.c);
+
+}
+
+
+}
+
+class myclass2 extends myclass1
+{
+
+subtraction()
+{
+
+this.c=this.a-this.b;
+document.write(" subtraction result is " + this.c);
+
+}
+
+
+
+}
+
+
+
+
+</script>
+
+<script>
+
+m2=new myclass2(); // m2=[1000]=[a,b,c, initialize(), addition(), subtraction()]
+
+m2.initialize();
+m2.addition();
+m2.subtraction();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-7-copy of objects</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const details=
+{
+people:234,
+area:"chennai",
+men:100,
+women:134
+}
+const entries=details;
+details.area="Trichy";
+document.getElementById("demo").innerHTML=details.area;
+</script>
+</body>
+</html>

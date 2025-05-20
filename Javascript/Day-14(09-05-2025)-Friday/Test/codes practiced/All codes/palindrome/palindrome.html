@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Palindrome</title>
+</head>
+<body>
+<input type="button" value="click" onclick="number()"/>
+<script>
+function number()
+{
+let str=((prompt("enter the string")));
+let rev_str="";
+for(let i=str.length-1;i>=0;i--)
+{
+ rev_str+=str[i]; 
+}
+if(str==rev_str)
+{
+document.write("It is Palindrome");
+}
+else
+{
+document.write("It is not a Palindrome");
+}
+}
+</script>
+</body>
+</html>

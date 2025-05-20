@@ -1,0 +1,119 @@
+while:
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+
+let count=0;
+
+while( count <=20 )
+{
+   document.write(count + "<br>");
+   count=count+2;
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+Do while:
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+
+let count=0;
+
+do{
+   document.write(count + "<br>");
+   count=count+2;
+}
+while( count <=20 )
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+for:
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+for(let count=0;count<=20;count=count+2)
+{
+  document.write(count + "<br>");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>

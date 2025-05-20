@@ -1,0 +1,633 @@
+css- cascading style sheet
+---------------------------------------
+  it is used style the web pages
+
+css can be applied to the element using the syntax as below
+
+selector
+{
+
+
+property1:value1;
+property2:value2;
+property3:value3;
+
+}
+
+
+css can be applied to the web pages in following ways
+
+1. inline css
+2. internal css
+3. external css
+
+inline css
+------------------
+  
+
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div style="height:100px; background-color:red; color:yellow; font-size:40px;">
+
+ Div : this is container element.
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+internal css
+-----------------
+style and html present in a same file
+
+
+
+sample1.html
+------------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+div
+{
+
+
+height:100px;
+background-color:green;
+color:white;
+font-size:30px;
+
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div>
+
+ Div : this is container element.
+
+</div>
+
+
+</body>
+
+</html>
+
+external css
+----------------
+  style sheet referred in a separate file with .css extension
+
+sample1.html
+----------------------
+
+<html>
+
+<head>
+
+<title> sample </title>
+
+<link rel="stylesheet" href="style1.css" >
+
+</head>
+
+<body>
+
+
+<div>
+
+ Div : this is container element.
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+style1.css
+----------------
+
+div
+{
+
+color:orange;
+background-color:black;
+font-size:40px;
+height:200px;
+
+}
+
+
+types of selectors
+---------------------------
+1. simple selectors
+2. combinator selectors
+3. attribute selectors
+4. pseudo class selectors
+5. pseudo element selectors
+
+
+1. simple selector
+-----------------------
+
+1. using element name
+2. using id [ use # symbol ]
+3. using class name [ use dot . operator ]
+
+sample
+--------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+div
+{
+
+background-color:green;
+color:white;
+font-size:30px;
+
+}
+
+
+#div2
+{
+
+background-color:orange;
+color:blue;
+font-size:30px;
+
+}
+
+
+.div3
+{
+
+background-color:black;
+color:white;
+font-size:30px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div>
+
+  div1 
+
+</div>
+
+<br>
+
+
+<div id="div2">
+
+  div2
+
+</div>
+
+<br>
+
+<div class="div3">
+
+  div3
+
+</div>
+
+
+</body>
+
+</html>
+
+
+combinator selector
+---------------------------
+
+example
+------------
+
+div, h1
+{
+
+background-color:green;
+color:white;
+font-size:30px;
+
+}
+
+
+
+
+sample
+------------
+
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+div, h1
+{
+
+background-color:green;
+color:white;
+font-size:30px;
+
+}
+
+
+div > h1
+{
+
+background-color:green;
+color:white;
+font-size:30px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div>
+
+    this is parent div
+
+   <h1>
+  
+         this is a child element 
+     
+   </h1>
+
+
+</div>
+
+<h1>
+
+   this is an adjacent element
+
+</h1>
+
+
+
+</body>
+
+</html>
+
+
+attribute selectors
+-----------------------------
+
+input[type="text"]
+input[name="text1"]
+input[type]
+input[id]
+
+
+sample
+------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+input[type="text"]
+{
+
+background-color:red;
+color:blue;
+
+}
+
+input[type="button"]
+{
+
+background-color:pink;
+color:yellow;
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<form>
+
+
+<input type="text"    name="text1"   /> <br>
+<input type="text"    name="text2"   /> <br>
+<input type="text"    name="text3"   /> <br>
+<input type="button"    id="button1" value="button"   /> <br>
+
+
+
+
+</form>
+
+
+
+
+</body>
+
+</html>
+
+
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+input[name="text1"]
+{
+
+background-color:red;
+color:blue;
+
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<form>
+
+
+<input type="text"    name="text1"   /> <br>
+<input type="text"    name="text2"   /> <br>
+<input type="text"    name="text3"   /> <br>
+<input type="button"    id="button1" value="button"   /> <br>
+
+
+
+
+</form>
+
+
+
+
+</body>
+
+</html>
+
+
+sample
+--------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+input[type]
+{
+
+background-color:red;
+color:blue;
+
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<form>
+
+
+<input type="text"    name="text1"   /> <br>
+<input type="text"    name="text2"   /> <br>
+<input type="text"    name="text3"   /> <br>
+<input type="button"    id="button1" value="button"   /> <br>
+
+
+
+
+</form>
+
+
+
+
+</body>
+
+</html>
+
+
+sample
+------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<style>
+
+input[id]
+{
+
+background-color:red;
+color:blue;
+
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<form>
+
+
+<input type="text"    name="text1"   /> <br>
+<input type="text"    name="text2"   /> <br>
+<input type="text"    name="text3"   /> <br>
+<input type="button"    id="button1" value="button"   /> <br>
+
+</form>
+
+
+
+
+</body>
+
+</html>
+
+
+----------------------------------------------------
+
+pseudo-class : 
+  css will be applied to represent a particular state of the element  
+
+pseudo element selector
+  it represents the part of a html element
+
+<html>
+
+<head>
+
+<style>
+
+a:link
+{ 
+color:red;
+}
+
+a:visited
+{ 
+background-color:purple;
+}
+
+a:hover
+{ 
+color:yellow;
+}
+
+
+a:active
+{ 
+color:orange;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<a href="sample1.html"> click here </a>
+
+</body>
+
+</html>
+
+<html>
+
+<head>
+
+<style>
+
+a:link
+{ 
+color:red;
+}
+
+a:visited
+{ 
+color:orange;
+}
+
+a:hover
+{ 
+color:yellow;
+}
+
+
+a:active
+{ 
+color:green;
+}
+
+p::selection
+{
+
+background-color:red;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="sample1234.html"> click here </a>
+
+
+<p>  this is a paragraph </p>
+
+
+
+</body>
+
+</html>

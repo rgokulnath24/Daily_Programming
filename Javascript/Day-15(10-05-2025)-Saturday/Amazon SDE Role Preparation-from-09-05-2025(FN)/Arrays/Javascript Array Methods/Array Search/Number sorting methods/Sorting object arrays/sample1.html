@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>sorting object arrays</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const livings=[
+{
+type:"birds",age:34
+},
+{
+type:"animals",age:57
+},
+{
+type:"beings",age:12
+}
+];
+livings.sort(function(a,b){return a.age - b.age});
+document.getElementById("demo").innerHTML=JSON.stringify(livings);
+</script>
+</body>
+</html>

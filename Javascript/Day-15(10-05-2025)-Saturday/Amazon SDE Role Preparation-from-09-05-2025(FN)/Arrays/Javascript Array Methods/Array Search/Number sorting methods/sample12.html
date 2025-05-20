@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Max method-Another made</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const arr=[0,223,3440,1,456];
+let arr_length=arr.length-1;
+let max=-Infinity;
+let i=0;
+while(arr_length--)   
+{
+if(arr[i]>max)
+{
+   max=arr[i];
+}
+i++;
+}
+document.getElementById("demo").innerHTML=max;
+</script>
+</body>
+</html>

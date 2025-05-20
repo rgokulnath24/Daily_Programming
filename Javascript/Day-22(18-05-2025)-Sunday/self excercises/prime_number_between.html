@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>List of Prime numbers</title>
+<script>
+let arr=[11,13,17,4,2,21];
+let is_prime=true;
+let prime_count=0;
+let n_prime_count=0;
+for(let i=0;i<arr.length;i++)
+{
+num=arr[i];
+if(num<=1)
+{
+  is_prime=false;
+}
+else
+{
+for(let j=2;j<num;j++)
+{
+  if(num%j==0)
+  {
+  is_prime=false;
+  break;
+  }
+}
+}
+if(is_prime)
+{
+ prime_count++;
+}
+else
+{
+ n_prime_count++;
+}
+}
+document.write("The prime numbers in an array: "+prime_count+"<br>");
+document.write("The non-prime numbers in an array: "+n_prime_count+"<br>");
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-15</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const details=
+{
+people:234,
+area:"chennai",
+men:100,
+women:134,
+products:function()
+{
+return this.people+" - "+this.area;
+}
+}
+document.getElementById("demo").innerHTML="The People with Areas : "+details.products();
+</script>
+</body>
+</html>

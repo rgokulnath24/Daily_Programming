@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Array Reduce</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const classes=[1,2,3,4,5];
+const class2=classes.reduce(myfunction);
+function myfunction(total,value,index,array)
+{
+return total=total+value;
+}
+document.getElementById("demo").innerHTML=class2;
+</script>
+</body>
+</html>

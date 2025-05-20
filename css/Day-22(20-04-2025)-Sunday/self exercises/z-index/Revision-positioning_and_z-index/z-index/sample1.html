@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      position: absolute;
+      width: 200px;
+      height: 100px;
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+      top: 100px;
+      opacity: 0.8; /* so you can see both if overlapping */
+    }
+
+    .blue {
+      background: blue;
+      left: 100px;
+      z-index: 1;
+    }
+
+    .red {
+      background: red;
+      left: 100px;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box blue">Blue Box (z-index: 1)</div>
+  <div class="box red">Red Box (z-index: 100)</div>
+
+</body>
+</html>

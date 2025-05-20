@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title>Responsive minimum and maximum width</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.content
+{
+border:2px solid black;
+padding:30px;
+font-weight:bold;
+}
+@media screen and (min-width:300px) and (max-width:800px),(max-width:1300px)
+{
+#sample
+{
+background-color:yellow;
+border:2px solid green;
+padding:30px;
+
+}
+}
+</style>
+</head>
+<body>
+<div class="content">
+Hello i am a fan of rajinikanth
+<div id="sample">
+But I am a Big fan of Joseph Vijay
+</div>
+</div>
+</body>
+</html>

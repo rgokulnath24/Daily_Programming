@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Media Queries</title>
+<style>
+*
+{
+box-sizing:border-box;
+}
+#content
+{
+display:flex;
+flex-wrap:wrap;
+}
+#column_1,#column_2,#column_3,#column_4
+{
+background-color:gray;
+padding:30px;
+color:white;
+border:0.5px solid #fff;
+width:25%;
+}
+/*for tablets*/
+@media screen and (max-width:900px)
+{
+#column_1,#column_2,#column_3,#column_4
+{
+width:50%;
+}
+}
+/*for mobiles*/
+@media screen and (max-width:500px)
+{
+#column_1,#column_2,#column_3,#column_4
+{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<div id="content">
+<div id="column_1">
+Hello this is column 1
+</div>
+
+<div id="column_2">
+Hello this is column 2
+</div>
+
+<div id="column_3">
+Hello this is column 3
+</div>
+
+<div id="column_4">
+Hello this is column 4
+</div>
+</div>
+</body>
+</html>

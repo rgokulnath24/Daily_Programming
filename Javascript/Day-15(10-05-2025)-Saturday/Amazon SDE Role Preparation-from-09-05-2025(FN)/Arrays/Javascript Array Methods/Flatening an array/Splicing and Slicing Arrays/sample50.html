@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Javascript Splicing adds elements to the array</title>
+</head>
+<body>
+<p id="demo1"></p>
+<script>
+const things=["noodles","briyani","cakes"];
+let removed=things.splice(0,1,"parotta","chapathi");
+document.getElementById("demo1").innerHTML="The removed items are : "+removed;
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*
+{
+box-sizing:border-box;
+font-family:verdana;
+}
+header{
+background-color:grey;
+color:white;
+text-align:center;
+font-weight:bold;
+font-size:50px;
+padding:30px;
+}
+nav ul
+{
+list-style-type:none;
+padding:0;
+}
+nav
+{
+float:left;
+background: #ccc;
+width:30%;
+height:300px;
+}
+article
+{
+background-color:#f1f1f1;
+float:right;
+color:black;
+width:70%;
+padding:20px;
+height:300px;
+}
+section::after
+{
+content:"";
+display:table;
+clear:both;
+}
+footer
+{
+background-color:grey;
+border:2px solid black;
+color:white;
+text-align:center;
+font-weight:bold;
+font-size:30px;
+padding:10px;
+}
+@media (max-width: 600px)
+{
+nav, article
+{
+width:100%;
+height:auto;
+}
+}
+
+</style>
+
+</head>
+<body>
+<header>Cities</header>
+<section>
+<nav>
+<ul>
+<li><a href="https://www.youtube.com/">Youtube</a></li>
+<li><a href="https://web.whatsapp.com/">Whatsapp</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
+</ul>
+</nav>
+<article>
+<h2>Chennai</h2>
+<p>Chennai, formerly known as Madras, is the vibrant capital of Tamil Nadu, a major commercial, cultural, and industrial hub in South India, often called the "Cultural Capital of South India"
+</p>
+</article>
+</section>
+<footer>Next slide</footer>
+</body>
+</html>

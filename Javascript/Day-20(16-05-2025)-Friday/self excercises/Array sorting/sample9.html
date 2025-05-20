@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Array ascending order sorting</title>
+</head>
+<body>
+<script>
+const arr=[2,200,1,0,10];
+const arr_len=arr.length;
+console.log(arr_len);
+for(let i=0;i<arr_len;i++)
+{
+for(let j=0;j<arr_len-i;j++)
+{
+if(arr[j]>arr[j+1])
+{
+let temp=arr[j];
+arr[j]=arr[j+1];
+arr[j+1]=temp;
+}
+}
+}
+for(let i=0;i<arr_len;i++)
+{
+document.write(arr[i]+"<br>");
+}
+</script>
+</body>
+</html>

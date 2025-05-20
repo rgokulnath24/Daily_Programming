@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-22-Object Constructors</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+function Person(name,age,native,year)
+{
+this.name=name;
+this.age=age;
+this.native=native;
+this.year=year;
+}
+const ac=new Person("Gokul",23);
+document.getElementById("demo").innerHTML="Hi I am "+ac.name+" and my age is "+ac.age;
+</script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+10          - int
+100         - int
+10.5        - float  after . 6 dgts
+10.123456   - double after . 12 dgts
+arjun       - string
+arjun@123   - string
+z           - char
+
+other language
+int a=10
+
+javascript
+a=10
+b=10.5
+
+a - variable
+10 - constant
+
+a=10 
+
+a=100
+
+a=arjun 
+
+a=10
+b=10 - integer constant
+10.5 - float constant
+"arjun",'arjun' - string constants
+
+----------------------------------------------
+
+rules for variable naming
+
+1. it must begin alphabet
+
+let number1 = 100;  valid
+let 1number=100; invalid
+let _number=100; valid
+
+
+2. it must not have any symbols
+  let number-is=123;   invalid hypen
+  let password#is ="pass@123"  invalid
+  let user_name="aravind"  valid  except underscore
+
+3. it must not be a keyword
+   let while=123;   invalid . while is the keyword
+
+4. it must not have any spaces
+   let user name is ="arun"   invalid
+   let user_name_is="arun"  valid
+
+5. it can have upto 32 characters
+   let abcdefghijklmn=12345  valid
+
+
+----------------------------------------------------
+
+
+prompt
+
+let username=prompt("enter the name");
+
+let age= parseInt( prompt("enter ur age") );
+
+let average = parseFloat ( prompt("enter the average") );
+
+
+------------
+
+1. alert()
+2. console.log()
+3. document.write()
+
+
+
+1.
+
+alert("hello");
+
+2. let age=25;
+  
+alert(" value is  " + age);
+
+3.
+a=100;
+b=10.5;
+alert(" a = " + a);
+alert(" b = " + b);
+
+alert(" a = " +a +" b = " + b);
+
+
+
+--------------------------------------------------
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+a=100;
+b=200;
+
+alert(" a =" + a +" b="+b );
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let a= parseInt( prompt("enter a number") );
+let b= parseInt( prompt("enter second number") );
+
+let c=a+b;
+alert(" addition result is " + c);
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+get quantity  - 10
+get unit price - 100
+
+totalamount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

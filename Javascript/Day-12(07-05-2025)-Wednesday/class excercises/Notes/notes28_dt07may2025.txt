@@ -1,0 +1,196 @@
+constructor
+------------------
+ it is a special function used to initialize the data members of the class. it will be called automatically when object is created
+
+sample
+-------------
+<html>
+
+<head>
+
+<script>
+
+class myclass1
+{
+
+constructor()
+{
+
+this.a=100;
+this.b=200;
+
+}
+
+addition()
+{
+this.c=this.a+this.b;
+document.write(" addition result is" + this.c);
+}
+
+}
+
+
+</script>
+
+<script>
+
+m1=new myclass1(); // m1=[a=100, b=200, c=300, constructor(), addition()]
+m1.addition();
+</script>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>
+
+function
+---------------
+ set of statements used to do a particular task
+
+syntax
+------------
+function functionname( parameters)
+{
+
+statements;
+
+}
+
+based on parameter and return type
+-------------------------------------------
+
+1. no parameter, no return type
+2. with parameter, no return type
+3. with parameter, with return type
+4. no parameter, with return type
+
+
+<html>
+
+<head>
+
+<script>
+
+//no parameter, no return type
+
+function addition( )
+{
+
+let a=100, b=200;
+
+let c=a+b;
+
+document.write(" result is " + c);
+
+
+}
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<script>
+
+addition();
+
+
+</script>
+
+</body>
+
+</html>
+
+
+---------------------------
+<html>
+
+<head>
+
+<script>
+
+//with parameter, no return type
+
+function addition(a, b)
+{
+
+let c=a+b;
+
+document.write(" result " + c);
+
+
+}
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<script>
+
+let a=1000;
+let b=2000;
+addition(a, b);
+
+</script>
+
+</body>
+
+</html>
+
+
+------------------------------------------------
+<html>
+
+<head>
+
+<script>
+
+//with parameter, with return type
+
+function addition(a, b)
+{
+
+let c=a+b;
+
+return c;
+
+}
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<script>
+
+let a=1000;
+let b=2000;
+let result =addition(a, b);
+document.write(result);
+
+</script>
+
+</body>
+
+</html>
+
+
+no parameter, with return type
+----------------------------------------------
+
+

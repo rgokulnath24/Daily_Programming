@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>Login Form</title>
+</head>
+<body>
+<form action="welcome.html" style="text-align:center;" onsubmit="return display();">
+<h1>Login Form</h1>
+<label>USERNAME &nbsp;&nbsp;</label><input type="text" id="name"></input><br><br>
+<label>PASSWORD &nbsp;&nbsp;</label><input type="password" id="password" name="password"/><br><br>
+<input type="submit" value="submit" name="submit"/>
+</form>
+<script>
+
+//validation--javascript
+//authorisation--database
+//authentication--database
+
+function display()
+{
+let username=document.getElementById("name").value;
+let password=document.getElementById("password").value;
+if((username=="") || (password==""))
+{
+alert("Username or Password should not be empty");
+return false;
+}
+else if((username=="gokul")&&(password=="gokul@123"))
+{
+alert("welcome Admin");
+return true;
+}
+else
+{
+alert("Invalid User");
+return false;
+}
+}
+</script>
+</body>
+</html>

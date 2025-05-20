@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #f2f2f2;
+    }
+
+    .box {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      margin: 10px;
+      padding: 20px;
+      font-size: 20px;
+      flex: 20%;
+    }
+
+    /* Tablet View */
+    @media screen and (max-width: 800px) {
+      .box {
+        flex: 40%;
+      }
+    }
+
+    /* Mobile View */
+    @media screen and (max-width: 500px) {
+      .box {
+        flex: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>Responsive Flex Example</h2>
+<p>Resize the browser window to see how boxes adjust using <code>flex: 25%</code>, <code>50%</code>, and <code>100%</code>.</p>
+
+<div class="container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+  <div class="box">Box 4</div>
+</div>
+
+</body>
+</html>

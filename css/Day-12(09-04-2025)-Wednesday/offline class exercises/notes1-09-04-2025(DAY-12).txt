@@ -1,0 +1,10 @@
+way of applying the css to the element is called selector
+
+selector , property and value
+
+how to connect with the CSS 3 ways
+Internal css - html file and css are in the same file
+
+inline css - 
+
+external css

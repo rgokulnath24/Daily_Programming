@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Occurencd of the number self try</title>
+<script>
+/*{
+  1: 1,
+  2: 2,
+  10: 1,
+  5: 1
+}*/
+let arr=[1,2,3,2,3];
+let count={}; //object declaration
+for(i=0;i<arr.length;i++)
+{
+   let num=arr[i];
+   if(count[num])
+   {
+    count[num]++;
+   }
+   else
+   {
+    count[num]=1;
+   }
+}
+document.write("<h2>Occurence of a number in an array</h2>");
+for(let key in count) 
+{
+document.write("The number "+key+" occured "+count[key]+" times in a array"+"<br><br>");
+}
+</script>
+</head>
+<body>
+</body>
+</html>

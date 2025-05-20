@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<form style="text-align:center;">
+<h1>Login Form</h1>
+<label>USERNAME &nbsp;&nbsp;</label><input type="text" id="name"></input><br><br>
+<label>PASSWORD &nbsp;&nbsp;</label><input type="password" id="password" name="password"/><br><br>
+<input type="button" value="submit" name="submit" onclick="display()"/>
+</form>
+<script>
+function display()
+{
+let username=document.getElementById("name").value;
+let password=document.getElementById("password").value;
+if((username=="gokul")&&(password=="gokul@123"))
+{
+alert("welcome Admin");
+}
+else
+{
+alert("Invalid User");
+}
+}
+</script>
+</body>
+</html>

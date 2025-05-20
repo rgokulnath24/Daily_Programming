@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Login Form</title>
+</head>
+<body>
+<form action="welcome.html" style="text-align:center;" onsubmit="return display();">
+<h1>Login Form</h1>
+<label>Price &nbsp;&nbsp;</label><input type="number" id="price"></input><br><br>
+<input type="submit" value="submit" name="submit"/>
+</form>
+<script>
+
+//validation--javascript
+//authorisation--database
+//authentication--database
+
+function display()
+{
+let price=document.getElementById("price").value;
+if(price=="")
+{
+alert("all aere empty");
+return false;
+}
+else if((price>=50)&&(price<=500))
+{
+alert("Valid Price");
+return true;
+}
+else
+{
+alert("Invalid Price");
+return false;
+}
+}
+</script>
+</body>
+</html>

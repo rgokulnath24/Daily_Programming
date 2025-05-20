@@ -1,0 +1,209 @@
+ladder if else : 
+-----------------------
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let name= prompt("enter ur friend name");
+
+if( name=="arun")
+{
+  document.write(" area 1 ");
+}
+else if( name=="bala")
+{
+ document.write(" area 2 ");
+}
+else if( name=="chinna")
+{
+ document.write(" area 3");
+} 
+else
+{
+  document.write(" invalid ");
+}
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+
+
+
+ask a number from user. if it is 10, Ten, 100 - hundred , 1000 - thousand
+other print invalid
+
+nested 
+-----------------
+ if else within another if else
+
+
+sample
+-----------------
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let score1= parseInt(  prompt("enter level 1 score "));
+
+if (score1>=10000)
+{
+  alert("congrats.  level1 is success");
+
+  let score2= parseInt( prompt("enter level 2 score "));
+  
+  if( score2>=20000)
+  {
+     alert("congrats. you won the game");
+  }
+  else
+  {
+    alert("lost in level2");
+  }
+
+
+}
+else
+{
+  alert("failed in level 1");
+} 
+
+
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+--------------------------------
+
+
+level1 score 7.5 selected
+  level2 score > 8.5 selected
+  rejected
+
+rejected in level1
+
+---------------------------------------------------------------
+switch: it is alternate version of ladder if else
+
+
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let name=prompt("enter ur name");
+
+switch( name )
+{
+
+case "arun":
+	alert("area 1");
+        break;       
+
+case "bala":
+	alert("area 2");
+        break;
+
+case "chinna":
+	alert("area 3");
+        break;
+
+
+
+default:
+      alert("invalid");
+      break;
+
+}
+
+
+
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>
+
+-----------------------------------------------
+using ladder if else
+
+mark 90 to 100
+   grade A
+mark 80 to 89
+    grade B
+mark 70 to 79
+    grade C
+others
+    invalid

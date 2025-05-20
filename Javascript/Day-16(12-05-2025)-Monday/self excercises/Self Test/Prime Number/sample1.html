@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>Prime Number Logic</title>
+</head>
+<body>
+<script>
+let number=parseInt(prompt("Enter the number: "));
+let isprime=true;
+if(number<=1)
+{
+isprime=false;
+}
+else
+{
+for(let i=2;i<=Math.sqrt(number);i++)
+{
+   if(number%i===0)
+   {
+     isprime=false;
+     break;
+   }
+
+}
+}
+if(isprime==false)
+{
+alert("It is a not a prime number");
+}
+else
+{
+alert("It is  prime number");
+}
+</script>
+</body>
+</html>

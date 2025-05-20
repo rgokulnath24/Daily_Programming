@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>Website Layout</title>
+<style>
+#content
+{
+display:grid;
+grid-template-columns:auto auto;
+gap:5px;
+border:2px solid black;
+background:rgba(20,20,20,0.4);
+}
+#content>div
+{
+background:skyblue;
+color:#000;
+padding:20px;
+text-align:center;
+}
+.header
+{
+grid-area:2/1;
+}
+.right
+{
+grid-area:2/2;
+}
+.main
+{
+grid-area:1/1;
+}
+.footer
+{
+grid-area:1/2;
+}
+
+</style>
+</head>
+<body>
+<div id="content">
+<div class="header">1</div>
+<div class="main">2</div>
+<div class="right">3</div>
+<div class="footer">4</div>
+</div>
+</body>
+</html>

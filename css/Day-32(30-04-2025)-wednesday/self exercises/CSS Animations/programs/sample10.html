@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<title>CSS ANIMATIONS-10</title>
+<style>
+body
+{
+background:black;
+}
+div
+{
+height:300px;
+width:300px;
+border-radius:50%;
+animation-name:gone;
+animation-duration:4s;
+background-color:red;
+position:relative;
+animation-timing-function:linear;
+animation-fill-mode:forwards;
+}
+#small_circle
+{
+height:100px;
+width:100px;
+border-radius:50%;
+background:gold;
+position:absolute;
+top:100px;
+left:200px;
+}
+@keyframes gone
+{
+from{top:0px;}
+to{top:200px;background-color:green;}
+}
+</style>
+</head>
+<body>
+<div>
+<div id="small_circle">
+</div>
+</body>
+</html>

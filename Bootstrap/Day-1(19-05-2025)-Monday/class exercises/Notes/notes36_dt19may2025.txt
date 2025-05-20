@@ -1,0 +1,452 @@
+<html>
+<head>
+
+
+.style1
+{
+   background-color:red;
+   color:green;
+   width:100px;
+}
+
+
+</head>
+<body>
+
+
+<div class="style1">
+
+this is container 
+
+
+</div>
+
+
+
+</body>
+</html>
+------------------------------------------------------------------
+
+sample before applying bs
+-------------------------------------
+
+<!DOCTYPE html>
+
+<head>
+
+<meta charset="utf-8">
+<meta content="viewport" content="width=device-width, initial-scale=1.0" >
+
+
+</head>
+<body>
+
+<div>
+
+<table width="100%">
+
+<tr>
+
+ <td> empid </td>
+ <td> name </td>
+ <td> salary </td>
+
+</tr>
+
+<tr>
+
+ <td> 1 </td>
+ <td> aaa </td>
+ <td> 10000 </td>
+
+</tr>
+
+<tr>
+
+ <td> 2 </td>
+ <td> bbb </td>
+ <td> 20000 </td>
+
+</tr>
+
+<tr>
+
+ <td> 3 </td>
+ <td> ccc </td>
+ <td> 30000 </td>
+
+</tr>
+
+</table>
+
+<div>
+
+
+</body>
+</html>
+
+
+sample after applying bs
+-------------------------------------
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+
+
+<!DOCTYPE html>
+
+<head>
+
+<meta charset="utf-8">
+<meta content="viewport" content="width=device-width, initial-scale=1.0" >
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+<table width="100%" class="table table-bordered table-striped table-hover">
+
+<tr>
+
+ <td> empid </td>
+ <td> name </td>
+ <td> salary </td>
+
+</tr>
+
+<tr>
+
+ <td> 1 </td>
+ <td> aaa </td>
+ <td> 10000 </td>
+
+</tr>
+
+<tr>
+
+ <td> 2 </td>
+ <td> bbb </td>
+ <td> 20000 </td>
+
+</tr>
+
+<tr>
+
+ <td> 3 </td>
+ <td> ccc </td>
+ <td> 30000 </td>
+
+</tr>
+
+</table>
+
+<div>
+
+
+</body>
+</html>
+
+
+bootstrap is css framework.
+framework is the prewritten code and readymade foundation to develop an application.
+bootstrap is used to create responsive websites.
+
+
+
+sample - pagination
+----------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div>                    
+  <ul>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
+
+after
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">                    
+  <ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
+
+
+after 2
+--------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">                    
+  <ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li class="active"><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li class="disabled"><a href="#">5</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
+
+
+
+
+navigation
+-----------------------
+before
+-------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" >
+
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+
+
+
+<style>
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<div>
+
+<nav>
+
+<ul>
+
+<li> <a href="#"> Home </a> </li>
+<li> <a href="#"> About Us </a> </li>
+<li> <a href="#"> Products </a> </li>
+<li> <a href="#"> Services </a> </li>
+<li> <a href="#"> Contact Us </a> </li>
+
+
+</ul>
+
+</nav>
+
+</div>
+
+</body>
+</html>
+
+
+
+after
+-------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" >
+
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+
+<style>
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<div class="container">
+
+<nav class="navbar navbar-default">
+
+
+
+<ul class="nav navbar-nav">
+
+<li class="active" > <a href="#"> Home </a> </li>
+<li> <a href="#"> About Us </a> </li>
+<li> <a href="#"> Products </a> </li>
+<li> <a href="#"> Services </a> </li>
+<li> <a href="#"> Contact Us </a> </li>
+
+
+</ul>
+
+</nav>
+
+</div>
+
+</body>
+</html>
+
+
+
+sample - dropdown
+----------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="dropdown">
+
+<button class="btn btn-primary" type="button" data-toggle="dropdown"> Select Option <span class="caret"></span> </button>
+
+<ul class="dropdown-menu">
+
+<li><a href="#">html</a></li>
+<li><a href="#">css</a></li>
+<li><a href="#">javascript</a></li>
+<li><a href="#">bootstrap</a></li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+sample
+------------------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="row">
+  <div id="div1" class="col-sm-12" style="background-color:red;height:100px;">
+  header
+  </div>
+</div>
+
+
+<div class="row">
+
+<div id="div2" class="col-sm-3" style="background-color:green;height:200px;">
+menu
+</div>
+
+<div id="div3" class="col-sm-7" style="background-color:orange;height:100px;">
+main
+</div>
+
+<div id="div4" class="col-sm-2" style="background-color:purple;height:100px;" >
+right
+</div>
+
+<div id="div5" class="col-sm-9" style="background-color:blue;height:100px;" >
+footer
+
+</div>
+
+</div>
+
+
+</body>
+</html>
+
+--------------------------------------------
+
+
+
+
+
+
+
+

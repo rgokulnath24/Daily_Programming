@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<title>Media Query and styles</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+body
+{
+box-sizing:border-box;
+}
+
+#content ul
+{
+list-style-type:none;
+display:flex;
+flex-direction:row;
+}
+#content ul li
+{
+padding:20px;
+background-color:black;
+color:white;
+width:300px;
+flex:1;
+cursor:pointer;
+}
+@media screen and (max-width:600px)
+{
+#content ul
+{
+flex-direction:column;
+}
+}
+</style>
+</head>
+<body>
+<div id="content">
+<ul>
+<li>Link-1</li>
+<li>Link-2</li>
+<li>Link-3</li>
+</ul>
+</div>
+</body>
+</html>

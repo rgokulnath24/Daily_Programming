@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Block Scope</title>
+</head>
+<body>
+<p id="demo2"></p>
+<p id="demo"></p>
+<script>
+var arr=["John","Martin","Marry"];
+{
+var arr=["Vijay","Vimal","Nirmal"];
+document.getElementById("demo2").innerHTML=arr;
+}
+document.getElementById("demo").innerHTML=arr;
+</script>
+</body>
+</html>

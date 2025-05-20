@@ -1,0 +1,254 @@
+Table:
+ <table> </table> tags are used to create the table
+ <tr> </tr> - represent the table row
+ <td> </td> - table data - represents the table column 
+ 
+attributes:
+  border : defines the width of the border
+  width : defines the width of the table [100% screen full width]
+  height : defines the height of the table
+ 
+
+sample
+-------------
+
+<html>
+<head>
+ <title> sample  </title>
+</head>
+<body>
+
+<table border="10" width="100%" height="300">
+
+<tr>
+
+ <td> rollno </td>
+ <td> name  </td>
+ <td>  mark </td>
+
+</tr>
+
+<tr>
+  <td>  1   </td>
+  <td> aaa  </td>
+  <td> 60  </td>
+</tr>
+
+<tr>
+
+<td> 2  </td>
+<td> bbb </td>
+<td> 70 </td>
+
+</tr>
+
+<tr>
+
+<td> 3 </td>
+<td> ccc </td>
+<td> 80 </td>
+
+</tr>
+
+
+</table>
+</body>
+</html>
+
+-----------------------------------------------------------------------------
+
+colspan
+-------------------
+ it is used to expand a cell into number of columns in a table
+
+sample
+-------------
+<html>
+<head>
+ <title> sample  </title>
+</head>
+<body>
+
+<table border="10" width="100%" height="300">
+
+<tr>
+
+<td colspan="3" align="center">
+  STUDENT DETAILS
+</td>
+
+</tr>
+
+
+<tr>
+
+ <td> rollno </td>
+ <td> name  </td>
+ <td>  mark </td>
+
+</tr>
+
+<tr>
+  <td>  1   </td>
+  <td> aaa  </td>
+  <td> 60  </td>
+</tr>
+
+<tr>
+
+<td> 2  </td>
+<td> bbb </td>
+<td> 70 </td>
+
+</tr>
+
+<tr>
+
+<td> 3 </td>
+<td> ccc </td>
+<td> 80 </td>
+
+</tr>
+
+
+</table>
+</body>
+</html>
+
+--------------------------------------------------------------------------
+
+
+<html>
+<head>
+ <title> sample  </title>
+</head>
+<body>
+
+<table border="10" width="100%" height="300">
+
+<tr>
+
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+
+</tr>
+
+
+
+<tr>
+
+ <td colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+
+
+
+</tr>
+
+
+<tr>
+
+ <td  colspan="4">
+ </td>
+ <td  colspan="4">
+ </td> 
+
+</tr>
+
+
+
+</table>
+</body>
+</html>
+
+sample
+-------------------
+3 rows and 8 columns
+
+<html>
+<head>
+ <title> sample  </title>
+</head>
+<body>
+
+<table border="10" width="100%" height="300">
+
+<tr>
+
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+ <td>
+ </td>
+
+</tr>
+
+
+
+<tr>
+
+ <td colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+ <td  colspan="2">
+ </td>
+
+
+
+</tr>
+
+
+<tr>
+
+ <td  colspan="4">
+ </td>
+ <td  colspan="4">
+ </td> 
+
+</tr>
+
+
+
+</table>
+</body>
+</html>
+
+
+
+
+

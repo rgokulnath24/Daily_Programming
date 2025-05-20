@@ -1,0 +1,78 @@
+media tags
+-----------------
+
+sample : video and audio files
+---------------------------------------
+
+<html>
+
+<head>
+
+<title> sample </title>
+
+</head>
+
+<body>
+
+
+<h1> media </h1>
+
+
+<video width="400" height="300" controls>
+  <source src="video1.mp4" type="video/mp4" >
+</video>
+
+<audio controls>
+<source src="audio1.mp3" type="audio/mp3" >
+</audio>
+
+
+</body>
+
+</html>
+
+
+meta
+------------------
+ it is the short form of essential information
+
+
+sample
+---------------
+<html>
+
+<head>
+
+<title> sample </title>
+
+<meta name="viewport"  content="width=device-width, initial-scale=2.0" >
+<meta http-equiv="refresh" content="5, url=https://www.google.com" >
+
+
+</head>
+
+<body>
+
+
+<h1> media </h1>
+
+
+<video width="400" height="300" controls>
+  <source src="video1.mp4" type="video/mp4" >
+</video>
+
+<audio controls>
+<source src="audio1.mp3" type="audio/mp3" >
+</audio>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+

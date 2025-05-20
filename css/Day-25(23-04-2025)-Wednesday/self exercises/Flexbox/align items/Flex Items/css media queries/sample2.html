@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<title>Media Queries</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+background-color:gray;
+color:#fff;
+font-size:30px;
+font-family:verdana;
+}
+.content
+{
+display:flex;
+flex-wrap:nowrap;
+border:5px dashed green;
+}
+#para
+{
+margin-top:150px;
+padding:30px;
+}
+#list ul li
+{
+list-style-type:none;
+padding:30px;
+width:200px;
+background-color:black;
+margin-bottom:20px;
+border-radius:15px;
+text-align:center;
+}
+#list ul li:hover
+{
+background:white;
+color:black;
+}
+#list
+{
+border-right:5px dashed gold;
+padding:20px;
+}
+@media screen and (max-width:500px)
+{
+.content
+{
+flex-direction:column;
+}
+#list
+{
+border-bottom:5px dashed gold;
+}
+#para
+{
+margin-top:20px;
+}
+
+}
+</style>
+</head>
+<body>
+<div class="content">
+<div id="list">
+<ul>
+
+<li>home</li>
+<li>about</li>
+<li>gallery</li>
+<li>news</li>
+<li>contact</li>
+
+</ul>
+</div>
+<div id="para">A good example of a paragraph contains a topic sentence, details and a conclusion. 'There are many different kinds of animals that live in China. Tigers and leopards are animals that live in China's forests in the north. In the jungles, monkeys swing in the trees and elephants walk through the brush.</div>
+</div>
+</body>
+</html>

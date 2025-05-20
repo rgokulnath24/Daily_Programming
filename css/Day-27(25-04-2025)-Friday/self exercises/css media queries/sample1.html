@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<title>Responsive website</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+body
+{
+background-color:gray;
+font-family:sans-serif;
+}
+*{
+box-sizing:border-box;
+}
+header
+{
+background-color:skyblue;
+padding:60px;
+text-align:center;
+font-weight:bold;
+color:#001;
+font-size:40px;
+}
+footer
+{
+background-color:skyblue;
+padding:40px;
+text-align:center;
+font-weight:bold;
+color:#001;
+font-size:20px;
+
+}
+#lists ul
+{
+background:#bee;
+padding:20px;
+margin-top:0px;
+margin-bottom:0px;
+}
+#lists ul li
+{
+display:inline;
+padding:30px;
+}
+a
+{
+text-decoration:none;
+color:#00e;
+font-weight:bold;
+}
+a:hover
+{
+color:white;
+background-color:#00e;
+width:150px;
+padding:20px;
+}
+.side
+{
+background:#ff7;
+flex:30%;
+padding:30px;
+}
+#content
+{
+display:flex;
+flex-wrap:wrap;
+}
+.main
+{
+flex:70%;
+padding:30px;
+background:#fab;
+}
+.fakeimg
+{
+width:200px;
+background:white;
+}
+@media screen and (max-width: 500px)
+{
+#lists ul li
+{
+display:block;
+padding: 10px 0;
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+<body>
+<div class="context">
+<header>
+Welcome to my website
+</header>
+<div id="lists">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Reviews & Ratings</a></li>
+</ul>
+</div>
+<div id="content">
+<div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+</div>
+<div class="main">
+ <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</div>
+</div>
+</div>
+<div id="footer">
+<footer>
+created by &copy; Gokulnath.R
+</footer>
+</div>
+
+</body>
+</html>

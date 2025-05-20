@@ -1,0 +1,3 @@
+Animations:
+
+CSS allows animation of HTML elements without using JavaScript!

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+let number=parseInt(prompt("number?"));
+let digit=number;
+let num_1;
+let temp=0;
+let num_len=number.toString().length;
+while(number>0)
+{
+num_1=number%10;
+temp=temp+(num_1**num_len);
+number=Math.floor(number/10);
+}
+if(temp==digit)
+{
+alert("armstrong");
+}
+else
+{
+alert("not");
+}
+</script>
+</body>
+</html>

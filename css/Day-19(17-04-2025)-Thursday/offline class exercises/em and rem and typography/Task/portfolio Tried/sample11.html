@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<style>
+*
+{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+#header
+{
+background-color:rgba(100,200,90,0.5);
+color:#300;
+width:100%;
+height:120px;
+font-family:sans-serif;
+box-sizing:border-box;
+padding-left:20px;
+padding-top:40px;
+font-weight:bold;
+}
+#content
+{
+background-color: rgba(221, 160, 221, 0.5); /* Plum / Light Purple */
+color:#300;
+width:100%;
+height:100%;
+font-family:verdana;
+box-sizing:border-box;
+padding:40px;
+
+}
+ul li
+{
+list-style-type:none;
+display:inline;
+padding:30px;
+font-family:cursive;
+color:brown; 
+}
+a
+{
+text-decoration:none;
+color:#300;
+}
+#header ul li
+{
+display:inline;
+}
+li:nth-child(1)::before {
+  content: "\1F464"; /* Person icon */
+}
+
+li:nth-child(2)::before {
+  content: "\1F4BC"; /* Briefcase icon */
+}
+
+li:nth-child(3)::before {
+  content: "\1F393"; /* Graduation Cap icon */
+}
+h1
+{
+text-transform:uppercase;
+}
+h2
+{
+margin-bottom:20px;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<h1 style="margin-bottom:14px;"><center>Gokulnath.r</center></h1>
+<ul style="text-align:center;">
+<li><a href="#">About me</a></li>
+<li><a href="#">Experience</a></li>
+<li><a href="#">Education</a></li>
+</ul>
+</div>
+<div id="content">
+<h2>Hi, I'm Gokulnath 👋</h2>
+<p>
+I'm a passionate and aspiring MERN Stack Developer with a strong foundation in web technologies like HTML, CSS, JavaScript, and a growing expertise in MongoDB, Express.js, React.js, and Node.js. I love creating responsive, user-friendly, and dynamic web applications that solve real-world problems.
+</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Math Min Lowest Number</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let arr=[10,2,30,1,50];
+let ele=minarray(arr)
+function minarray(arr)
+{
+  return Math.min.apply(null,arr);
+}
+document.getElementById("demo").innerHTML=ele;
+</script>
+</body>
+</html>

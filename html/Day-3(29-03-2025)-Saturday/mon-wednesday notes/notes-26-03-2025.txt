@@ -1,0 +1,199 @@
+anchor tag
+-------------------
+  it is used for redirection
+
+<a href=""> link text </a>
+
+href - attribute represent the target file name or target url [ website address ]
+
+
+internal redirection
+--------------------------------
+ using anchor tag, we can redirect to the detination page which is exist in the same system
+
+
+<html>
+
+ <head>
+   <title> sample2 </title>
+ </head>
+ <body>
+   <a href="sample1.html">  click here </a>
+ </body>
+</html>
+
+
+external redirection
+------------------------------
+  the target or destination page or url does not exist in the same system
+
+
+sample
+----------------
+<html>
+<head>
+ <title> sample 3 </title>
+</head>
+<body>
+
+<a href="http://www.google.com" > click to google </a>
+
+</body>
+</html>
+
+
+
+
+navigation within a page
+
+use 'id' in the href attribute of the anchor tag
+
+<a href="#div1" > click to footer </a> 
+
+sample
+-----------------
+<html>
+<head>
+ <title> sample 4 </title>
+</head>
+<body>
+
+<a href="#div1" > click to footer </a> <br> 
+
+<pre>
+this is line 1 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this is line 2
+
+<div id="div1">
+ thank you
+</div>
+
+</pre>
+
+
+
+
+
+</body>
+</html>
+
+sample
+-------------
+<html>
+<head>
+ <title> sample 5 </title>
+</head>
+<body>
+
+<a href="sample4.html#div1" > click to sample4- footer </a> <br> 
+
+</body>
+</html>
+
+sample
+--------------
+target attribute is used to decide where the new file or url shoulb be opened
+
+when target is '_blank' , the page or url will be opened in new tab
+when target is '_self' , the page or url will be opened in same tab
+
+<html>
+<head>
+ <title> sample 6 </title>
+</head>
+<body>
+
+<a href="http://www.google.com" target="_blank" > google </a> <br> 
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+ <title> sample 6 </title>
+</head>
+<body>
+
+<a href="http://www.google.com" target="_self" > google </a> <br> 
+
+</body>
+</html>
+
+
+absolute path and relative path
+-----------------------------------------
+
+absolute path
+  path of the file does not depend on any additional file or parameters
+relative path
+ it always depnd on related file or parameters
+
+
+sample
+----------
+<html>
+<head>
+ <title> sample 7 </title>
+</head>
+<body>
+
+<a href="sample1.html" > sample1 </a> <br> 
+
+<a href="D:\vnkt\wd_batch4_4.30pm_fe\sample1.html" > sample1 </a> <br> 
+
+</body>
+</html>
+
+

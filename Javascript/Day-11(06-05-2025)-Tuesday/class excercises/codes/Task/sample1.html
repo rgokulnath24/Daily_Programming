@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+<script>
+
+class bank
+{
+
+bank_methods()
+{
+this.deposit=1;
+this.transfer=2;
+this.cashless=3;
+}
+
+}
+class payment extends bank
+{
+withoutcash()
+{
+document.write("Cashless shortcut:"+this.cashless+"<br>");
+}
+}
+class notification extends payment
+{
+message()
+{
+document.write("You got a Whatsapp message because you choosed "+this.cashless+" -shortcut Transaction");
+}
+}
+
+</script>
+
+</head>
+
+<body>
+<script>
+
+b=new notification();
+b.bank_methods();
+b.withoutcash();
+b.message();
+
+</script>
+</body>
+
+</html>

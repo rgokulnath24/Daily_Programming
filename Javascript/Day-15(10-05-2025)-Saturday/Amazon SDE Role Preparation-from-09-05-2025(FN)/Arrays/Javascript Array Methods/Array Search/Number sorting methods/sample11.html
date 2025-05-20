@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Min method-Home made</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let arr=[0,223,3440,1,456];
+let arr_length=arr.length-1;
+let lowest=arr[0];
+let i=1;
+while(arr_length>=i)   
+{
+if(arr[i]>lowest)
+{
+lowest=lowest;
+}
+else
+{
+lowest=arr[i];
+}
+i++;
+}
+document.getElementById("demo").innerHTML=lowest;
+</script>
+</body>
+</html>

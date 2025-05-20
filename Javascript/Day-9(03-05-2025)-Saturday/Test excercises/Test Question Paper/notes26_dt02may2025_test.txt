@@ -1,0 +1,26 @@
+1. get unit price and quntity then display the total amount.
+
+2. get statename from user. if it matches with 'tamilnadu' print 'chennai is the capital' otherwise print invalid
+
+3. get name and city from user. if it matches with 'ur name' and 'ur city' then print 'correct' otherwise print 'incorrect'
+
+4. print the numbers from 10 to 0 as below.
+10,9,8,7,6,4,3,2,1 [check the series carefully]
+
+5. complete the series  using any loop
+1,2,3,4,5,5,4,3,2,1
+
+6. what is box model in css
+
+7. explain in short about types of selectors in css [ 5 mark ]
+
+8. what are the rules for variable naming
+
+9. what is datatype. what are the datatypes available in javascript.
+
+10. what is decision making statements. explain in short
+
+
+
+
+

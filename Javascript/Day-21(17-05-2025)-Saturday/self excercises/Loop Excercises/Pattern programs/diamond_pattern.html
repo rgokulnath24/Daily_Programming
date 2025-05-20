@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>Diamond Pattern</title>
+<script>
+let input=parseInt(prompt("enter the reach value ?"));
+for(let i=0;i<input;i++)
+{
+for(let j=0;j<input-i;j++)
+{
+document.write("&nbsp;");
+}
+
+for(let k=0;k<=i;k++)
+{
+document.write("*");
+}
+document.write("<br>");
+}
+
+for(let i=0;i<input;i++)
+{
+for(let j=0;j<i;j++)
+{
+document.write("&nbsp;");
+}
+
+for(let k=0;k<input-i;k++)
+{
+document.write("*");
+}
+document.write("<br>");
+}
+</script>
+</head>
+<body>
+</body>
+</html>

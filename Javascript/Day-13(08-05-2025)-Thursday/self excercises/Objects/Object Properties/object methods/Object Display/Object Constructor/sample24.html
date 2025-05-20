@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Sample-23-Common Object Constructors</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+function Person(name,age,native,year,gender)
+{
+this.name=name;
+this.age=age;
+this.native=native;
+this.year=year;
+this.gender="male"
+}
+const ac=new Person("Gokul",23);
+const daddy=new Person("Rajamanickam",54);
+document.getElementById("demo").innerHTML="Hi I am "+ac.name+" and my age is "+ac.age+"<br><br>"+"My Daddy name is "+daddy.name+" and he is "+daddy.age+"and we marked as "+ac.gender;
+</script>
+</body>
+</html>

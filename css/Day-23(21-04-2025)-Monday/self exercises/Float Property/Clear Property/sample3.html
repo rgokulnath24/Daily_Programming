@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>clearfix</title>
+<style>
+#content
+{
+border:5px solid green;
+}
+img
+{
+float:right;
+}
+#content::after
+{
+  content:"";
+  clear:both;
+  display:table;
+}
+</style>
+</head>
+<body>
+<div id="content">
+<img src="../images/tiger.jpeg">
+<p>This is tiger which is wild animal and it has its ruggedness and it wait for its prey</p>
+</div>
+</body>
+</html>

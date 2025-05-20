@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Array Filter</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const classes=[12,24,36,90,67];
+const class2=classes.filter(myfunction);
+function myfunction(value,index,array)
+{
+return value>24;
+}
+document.getElementById("demo").innerHTML=class2;
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>Constant Redeclaration</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+try
+{
+alert(cars);
+const cars=["volvo","ambassador"];
+}
+catch(err)
+{
+document.getElementById("demo").innerHTML=err;
+}
+</script>
+</body>
+</html>

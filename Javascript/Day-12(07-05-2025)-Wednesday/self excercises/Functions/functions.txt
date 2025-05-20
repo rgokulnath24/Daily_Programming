@@ -1,0 +1,7 @@
+Function is a block of code designed to perform a particular task.
+
+only executed when it is invoked.
+
+with functions can reuse the code
+
+Reusability of the code is enhanced by functions.

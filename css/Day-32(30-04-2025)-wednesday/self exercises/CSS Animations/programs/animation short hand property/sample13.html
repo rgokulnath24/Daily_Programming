@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>CSS ANIMATIONS-13-SHORT HAND PROPERTIES</title>
+<style>
+body
+{
+background:black;
+}
+div
+{
+height:300px;
+width:300px;
+border-radius:50%;
+animation:gone 5s ease-in 1s 5 reverse;
+position:relative;
+background:orange;
+}
+@keyframes gone
+{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}}
+</style>
+</head>
+<body>
+<div>
+
+</body>
+</html>

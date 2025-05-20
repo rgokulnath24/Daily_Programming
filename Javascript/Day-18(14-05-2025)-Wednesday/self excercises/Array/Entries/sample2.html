@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Entries</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const arr=["banana","apple","jackfruit"];
+const entries= arr.entries();
+let text="";
+for(let x of entries)
+{
+text=text+x+"<br>";
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>

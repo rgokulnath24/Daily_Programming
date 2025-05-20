@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+<script>
+
+function display()
+{
+
+let score1= parseInt(  prompt("enter level 1 score "));
+
+if (score1>=10000)
+{
+  alert("congrats.  level1 is success");
+
+  let score2= parseInt( prompt("enter level 2 score "));
+  
+  if( score2>=20000)
+  {
+     alert("congrats. you won the game");
+  }
+  else
+  {
+    alert("lost in level2");
+  }
+
+
+}
+else
+{
+  alert("failed in level 1");
+} 
+
+
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button"  value="click" onclick="display();"   />
+
+
+</form>
+
+
+</body>
+
+</html>

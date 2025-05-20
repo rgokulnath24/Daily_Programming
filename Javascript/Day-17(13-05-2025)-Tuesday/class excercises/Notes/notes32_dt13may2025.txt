@@ -1,0 +1,162 @@
+javascript samle using prompt
+-----------------------------------------
+
+sample
+-------------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selecting Elements in DOM</title>
+
+<script>
+
+function display()
+{
+
+ let username=prompt("enter ur name");
+
+ if( username == "arjun")
+  {
+      alert("valid username");
+  }
+ else 
+  {
+     alert("invalid username");
+  }
+
+
+
+
+}
+
+
+
+</script>
+   
+
+
+</head>
+<body>
+    <h1 id="main-title">Welcome</h1>
+    <form>
+    <input type="button" value="Click Me" onclick="display();" />
+    </form>
+    
+</body>
+</html>
+
+DOM - document object model is used to define the model for the webpage into a object format.
+
+document
+-----------------
+  It is the object representation of the loaded web page.
+
+
+sample1 using document object
+-----------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selecting Elements in DOM</title>
+
+<script>
+
+function display()
+{
+
+ let element=document.getElementById("text1");
+
+ let msg=element.value;
+
+ if( msg == "arjun")
+  {
+      alert("valid username");
+  }
+ else 
+  {
+     alert("invalid username");
+  }
+
+
+
+
+}
+
+
+
+</script>
+   
+
+
+</head>
+<body>
+    <h1 id="main-title">Welcome</h1>
+    <form>
+    <input type="text"   id="text1"  /><br>
+    <input type="button" value="Click Me" onclick="display();" />
+    </form>
+    
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selecting Elements in DOM</title>
+
+<script>
+
+function display()
+{
+
+ let element1=document.getElementById("text1");
+ let msg1=element1.value;
+
+ let element2=document.getElementById("text2");
+ let msg2=element2.value;
+
+ if( msg1 == ""  || msg2=="")
+  {
+      alert("username and password must not be empty");
+      return false;
+  }
+ else 
+  {
+     alert("valid input");
+     return true;
+  }
+
+
+
+
+}
+
+
+
+</script>
+   
+
+
+</head>
+<body>
+    <h1 id="main-title">Welcome</h1>
+    <form action="sample10.html" onsubmit="return display();"  >
+      Username:<input type="text"   id="text1"  /><br>
+      Password: <input type="text"   id="text2"  /><br>
+      <input type="submit" value="submit"/>
+    </form>
+    
+</body>
+</html>
+
+
+
+

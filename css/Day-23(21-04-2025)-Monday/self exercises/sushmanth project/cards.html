@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cards</title>
+	<style>
+		.profile-pic{
+			width: 200px;
+            height: 200px;
+			object-fit: cover;
+			margin-bottom:0;
+		}
+		.cat-name{
+			margin-top: 3px;
+			font-weight: bold;
+			font-family: Arial;
+			margin-bottom: 3px;
+			margin-left: 8px;
+		}
+		.frnd-pic{
+			display: inline-block;
+			width:30px;
+			height: 30px;
+			object-fit: cover;
+			border-radius: 50px;
+			vertical-align: -13px;
+		}
+		.frnds-count{
+			display: inline-block;
+			margin-top: 0;
+			font-family: Arial;
+			font-size: 13px;
+			color: rgb(128,128,128);
+					}
+		.round-pic{
+			width:30px;
+			display: inline-block;
+			margin-right: 2px;
+					}
+		.frnd-info{
+			margin-bottom: 10px;
+			margin-left: 8px;
+		}
+		.add-frnd{
+			border:none;
+			border-radius: 3px;
+			padding-left: 13px;
+			padding-right: 13px;
+			padding-bottom: 8px;
+			padding-top: 8px;
+			font-size: 15px;
+			background-color: rgb(65,105,225);
+			color: white;
+			margin-left: 8px;
+		}
+		.add-frnd:hover{
+			opacity: 0.7;
+		}
+		.profile-container{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			width: 200px;
+			padding-bottom: 11px;
+		}
+		.container{
+			display: flex;
+			justify-content: space-evenly;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="profile-container">
+		<div>
+	<img  class="profile-pic" src="images/dog.jpg" alt="profile image brown cat">
+		</div>
+	<div>
+	<p class="cat-name">Shiba Inu</p>
+	</div>
+	<div class="frnd-info">
+		<div class="round-pic">
+	<img class="frnd-pic" src="images/Regsidepanel.jpg" alt="friend image">
+	</div>
+	<p class="frnds-count">3 mutual friends</p>
+    </div>
+    <div>
+	<button class="add-frnd">Add friends</button>
+    </div>
+    </div>
+
+    <div class="profile-container">
+		<div>
+	<img  class="profile-pic" src="images/cat.jpg" alt="profile image brown cat">
+		</div>
+	<div>
+	<p class="cat-name">Oliver</p>
+	</div>
+	<div class="frnd-info">
+		<div class="round-pic">
+	<img class="frnd-pic" src="images/Regsidepanel.jpg" alt="friend image">
+	</div>
+	<p class="frnds-count">2 mutual friends</p>
+    </div>
+    <div>
+	<button class="add-frnd">Add friends</button>
+    </div>
+    </div>
+    <div class="profile-container">
+		<div>
+	<img  class="profile-pic" src="images/owl.jpg" alt="profile image brown cat">
+		</div>
+	<div>
+	<p class="cat-name">Barn</p>
+	</div>
+	<div class="frnd-info">
+		<div class="round-pic">
+	<img class="frnd-pic" src="images/Regsidepanel.jpg" alt="friend image">
+	</div>
+	<p class="frnds-count">4 mutual friends</p>
+    </div>
+    <div>
+	<button class="add-frnd">Add friends</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

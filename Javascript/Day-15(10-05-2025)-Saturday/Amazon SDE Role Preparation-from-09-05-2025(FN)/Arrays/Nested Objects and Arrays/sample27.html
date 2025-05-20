@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Create an array and check it</title>
+</head>
+<body>
+<p id="sample"></p>
+<script>
+let x="";
+const myobj=
+{
+name:"gokul",
+age:23,
+cars:[
+{
+name:"Fiat",model:['MW123','MW124','MW125']
+},
+{
+name:"Ferrari",model:['A123','A124','A125']
+}
+]
+}
+for (let i in myobj.cars)
+{
+x=x+"<h2>"+myobj.cars[i].name+"</h2>";
+for (let j in myobj.cars[i].model)
+{
+x=x+myobj.cars[i].model[j]+"<br>";
+}
+}
+document.getElementById("sample").innerHTML=x;
+</script>
+</body>
+</html>

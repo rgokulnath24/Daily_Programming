@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+<script>
+
+class myclass1
+{
+
+defining()
+{
+this.value1=10;
+this.value2=20;
+}
+
+}
+class myclass2 extends myclass1
+{
+newname()
+{
+document.write("The new value of v1 is "+this.value1 +" and the new value of v2 is "+this.value2);
+}
+}
+class myclass3 extends myclass2
+{
+addition()
+{
+let c=this.value1+this.value2;
+document.write("<br><br>"+"c="+c);
+}
+}
+
+</script>
+
+</head>
+
+<body>
+<script>
+
+k=new myclass3();
+k.defining();
+k.newname();
+k.addition();
+
+</script>
+</body>
+
+</html>

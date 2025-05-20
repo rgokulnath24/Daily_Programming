@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Min method-Home made</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let arr=[10,223,3440,1,456];
+let arr_length=arr.length-1;
+let greatest=arr[0];
+let i=1;
+while(i<=arr_length)   
+{
+if(arr[i]>greatest)
+{
+greatest=arr[i];
+}
+i++;
+}
+document.getElementById("demo").innerHTML=greatest;
+</script>
+</body>
+</html>

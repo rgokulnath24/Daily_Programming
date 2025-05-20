@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Array Some-checks the array </title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const classes=[1,2,3,4,5];
+const class2=classes.some(myfunction);
+function myfunction(value,index,array)
+{
+return value>0;
+}
+document.getElementById("demo").innerHTML=class2;
+</script>
+</body>
+</html>

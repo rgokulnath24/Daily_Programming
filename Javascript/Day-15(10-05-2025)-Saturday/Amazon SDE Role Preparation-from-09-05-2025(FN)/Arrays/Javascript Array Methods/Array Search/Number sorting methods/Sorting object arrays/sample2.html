@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>sorting object arrays</title>
+</head>
+<body>
+<input type="button" onclick="clicked()" value="click"/>
+<p id="demo"></p>
+<script>
+const institute=[{teacher:"zoni",subject:"english",marks:90},
+{teacher:"vaani",subject:"english",marks:90},
+{teacher:"rohini",subject:"english",marks:90}
+];
+display();
+
+function clicked()
+{
+institute.sort(function clicked(a,b)
+{
+let x=a.teacher.toLowerCase();
+let y=b.teacher.toLowerCase();
+if(x>y) return 1;
+if(x<y) return -1;
+return 0;
+
+});
+display();
+
+}
+function display()
+{
+document.getElementById("demo").innerHTML=institute[0].teacher+" "+institute[0].subject+" "+institute[0].marks+"<br>"+institute[1].teacher+" "+institute[1].subject+" "+institute[1].marks+"<br>"+institute[2].teacher+" "+institute[2].subject+" "+institute[2].marks;
+}
+</script>
+</body>
+</html>

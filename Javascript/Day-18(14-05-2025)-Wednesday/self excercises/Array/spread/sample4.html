@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Spread Operator</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const arr1=["jan","feb","mar"];
+const arr2=["apr","may","june"];
+const arr3=["july","augu","sept"];
+const arr4=["oct","nov","dec"];
+
+const year=[...arr1,...arr2,...arr3,...arr4];
+document.getElementById("demo").innerHTML=year;
+</script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+typography
+-----------------
+ it defines the color, size, space and shape of the texts.
+
+color:
+   color:red;
+   color:rgb(255, 0, 0);
+   color:#FF000;
+   color:rgba(255, 0, 0.5);
+
+size:
+font-size:30px;   absolute value
+font-size:x-large;   absolute value 
+font-size:xx-large;   absolute value
+font-size:x-small;   absolute value
+font-size:xx-small;;   absolute value
+font-size:90%;   relative value. depnds on parent element
+font-size:smaller;   relative value. depnds on parent element
+font-size:larger;   relative value. depnds on parent element
+
+x-large, xx-large - pixel size is between 24-48 but not exact values
+
+shape:
+font-family:times new romen;
+font-family:arial;
+font-family:serif; //letters having stroke edges
+font-family:sans-serif; // letter does not having stroke edges
+font-family:cursive; // letter will be cursive writing
+
+font-weight:bold;
+font-weight:normal;
+font-weight:700;
+font-weight:400; 
+
+100 - 900
+
+text-decoration:underline;
+text-decoration:overline;
+text-decoration:line-through;
+text-decoration:none;
+
+space:
+
+line-height: 20px; defines the height of the writing line for the texts.
+letter-spacing:2px;  defines the space between the letters
+
+
+writing-mode:vertical-lr; vertical direction and left to right writing direction
+writing-mode:vertical-rl; vertical direction and right to left writing direction
+text-orientation:upright;
+
+
+sample
+----------------
+<html>
+
+<head>
+
+<style>
+
+#para1
+{
+
+
+background-color:black;
+color:yellow;
+font-size:xx-larger;
+font-weight:normal;
+font-style:italic;
+text-decoration:none;
+line-height:20px;
+letter-spacing:1px;
+
+}
+
+
+#para2
+{
+
+background-color:black;
+color:yellow;
+font-size:20px;
+height:200px;
+width:90%;
+
+writing-mode:vertical-lr;
+text-orientation:upright;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<p id="para1">
+
+On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+
+</p>
+
+<p id="para2">
+
+You <br> can <br> easily <br>change 
+
+</p>
+
+
+
+</body>
+
+</html>
+
+
+-------------------------------------------------------------------
+
+sample
+-------------
+
+<html>
+
+<head>
+
+<style>
+
+#div1
+{
+
+background-color:rgb(200, 200, 200);
+height:200px;
+font-size:30px;
+
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="div1">
+
+
+This is a div element This is a div element This is a div element
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+<html>
+
+<head>
+
+<style>
+
+#div1
+{
+
+background-color:rgba(255, 0,0, 0.2);
+height:200px;
+font-size:30px;
+
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="div1">
+
+
+This is a div element This is a div element This is a div element
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+using rgb
+------------------
+<html>
+
+<head>
+
+<style>
+
+#div1
+{
+
+background-color:#CCCCCC;
+height:200px;
+font-size:30px;
+
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="div1">
+
+
+This is a div element This is a div element This is a div element
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+binary - base - 2 - 0, 1
+octal  - base - 8 - 0,1,2....7
+decimal- base - 10 - 0,1,2,....9
+hexa decimal -  16 - 0 -9, A, B, C, D, E, F
+
+
+decimal - 12
+hexa    - C
+
+decimal - 15
+hexa    - F
+
+
+F    -  15
+FF   -  255
+
+5 - decimal
+
+5 - 101
+
+ 2|5
+ 2|2 - 1
+   1 - 0
+
+  101
+
+1001 - 
+   1 * 2 power of 0 = 1 * 1  = 1
+   0 * 2 power of 1 = 0 * 2  = 0
+   0 * 2 power of 2 = 0 * 4  = 0
+   1 * 2 power of 3 = 1 * 8  = 8
+                             -----------     
+                                9
+                             -------------
+
+
+
+F F
+| | 
+|  15 * 16 power of 0 = 15 * 1    = 15
+   15 * 16 power of 1 = 15 * 16   = 240
+                                   ------------
+                                    255
+
+
+
+<html>
+
+<head>
+
+<style>
+
+#div1
+{
+
+background-color:#DDDDDD;
+height:200px;
+font-size:30px;
+
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="div1">
+
+
+This is a div element This is a div element This is a div element
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+

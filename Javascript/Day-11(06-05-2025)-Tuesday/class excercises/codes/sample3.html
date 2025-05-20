@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+<script>
+
+class myclass1
+{
+
+initialize()
+{
+
+this.a=100;
+this.b=50;
+
+}
+
+
+addition()
+{
+  this.c=this.a+this.b;
+  document.write(" addition result is " + this.c);
+
+}
+
+
+}
+
+class myclass2 extends myclass1
+{
+
+subtraction()
+{
+
+this.c=this.a-this.b;
+document.write(" subtraction result is " + this.c);
+
+}
+
+
+
+}
+
+
+
+
+</script>
+
+<script>
+
+m2=new myclass2(); // m2=[1000]=[a,b,c, initialize(), addition(), subtraction()]
+
+m2.initialize();
+m2.addition();
+m2.subtraction();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

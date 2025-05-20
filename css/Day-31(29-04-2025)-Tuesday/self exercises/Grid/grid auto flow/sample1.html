@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Grid Auto flow</title>
+<style>
+#row_container,#column_container
+{
+display:grid;
+grid-template-rows:auto auto auto;
+grid-template-columns:auto auto;
+}
+</style>
+</head>
+<body>
+<div id="row_container" style="grid-auto-flow:row;">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+</div>
+<br><br>
+<div id="column_container" style="grid-auto-flow:column;">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+</div>
+</body>
+</html>

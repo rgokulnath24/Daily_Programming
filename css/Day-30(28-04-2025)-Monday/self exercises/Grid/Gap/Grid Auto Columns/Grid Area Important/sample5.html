@@ -1,0 +1,42 @@
+<style>
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-rows: 50px 300px 50px;
+  grid-template-columns: 150px 1fr;
+  gap: 10px;
+}
+
+.grid-container > div {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+ }
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+</style>
+
+<div class="grid-container">
+  <div class="header">Header</div>
+  <div class="sidebar">Sidebar</div>
+  <div class="main">Main Content</div>
+  <div class="footer">Footer</div>
+</div>

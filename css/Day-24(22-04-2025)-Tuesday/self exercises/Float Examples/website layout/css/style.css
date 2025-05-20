@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  background-color: #ffeebb;
+}
+
+.header, .footer {
+  background-color: #bbb;
+  padding: 15px;
+  color: #fff;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+}
+
+.menu ul li:hover {
+  background-color: #0099cc;
+}

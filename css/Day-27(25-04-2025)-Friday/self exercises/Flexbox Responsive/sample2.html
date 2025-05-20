@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<title>Flexbox percentage Responsive</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+*
+{
+box-sizing:border-box;
+}
+#listed ul
+{
+display:flex;
+flex-wrap:wrap;
+background-color:black;
+padding:30px;
+}
+#first
+{
+  flex:25%;
+}
+#second
+{
+flex:25%;
+}
+#third
+{
+flex:25%;
+}
+#fourth
+{
+flex:25%;
+}
+a
+{
+text-decoration:none;
+color:white;
+}
+#listed ul li
+{
+list-style-type:none;
+}
+@media screen and (max-width:400px)
+{
+ #listed ul
+{
+flex-direction:column;
+}
+#first,#second,#third,#fourth
+{
+margin-bottom:10px;
+}
+}
+</style>
+</head>
+<body>
+<div id="listed">
+<ul>
+<li id="first"><a href="#">About</a></li>
+<li id="second"><a href="#">Contact</a></li>
+<li id="third"><a href="#">Gallery</a></li>
+<li id="fourth"><a href="#">News & Letters</a></li>
+
+</ul>
+</div>
+</body>
+</html>

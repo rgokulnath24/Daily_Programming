@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.container
+{
+position:relative;
+}
+.gray-box
+{
+position:relative;
+height:400px;
+width:400px;
+z-index:1;
+background:gray;
+margin:20px;
+}
+.green-box
+{
+background:green;
+width:200px;
+height:200px;
+z-index:2;
+position:absolute;
+top:40px;
+left:270px;
+}
+.red-box
+{
+background:red;
+width:400px;
+height:200px;
+z-index:3;
+position:absolute;
+top:190px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="gray-box">Gray-z-1</div>
+<div class="green-box">Green-z-2</div>
+<div class="red-box">Red-z-3</div>
+</div>
+</body>
+</html>

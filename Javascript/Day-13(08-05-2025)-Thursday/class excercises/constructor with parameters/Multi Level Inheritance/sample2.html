@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+class myclass1
+{
+constructor(x,y)
+{
+this.a=x;
+this.b=y;
+}
+addition()
+{
+this.c=this.a+this.b;
+document.write("1."+"Addition: "+this.c+"<br>");
+}
+}
+class myclass2 extends myclass1
+{
+subtraction()
+{
+this.d=this.a-this.b;
+document.write("2."+"Subtraction: "+this.d+"<br>");
+}
+}
+class myclass3 extends myclass2
+{
+multiplication()
+{
+this.e=this.a*this.b;
+document.write("3."+"Multiplication: "+this.e+"<br>");
+}
+}
+</script>
+<script>
+cr=new myclass3(100,20);
+cr.addition();
+cr.subtraction();
+cr.multiplication();
+</script>
+</body>
+</html>

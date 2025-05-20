@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function display()
+{
+let cutoff=parseFloat(prompt("enter your cut-off:"));
+if(cutoff>=9.5)
+{
+document.write("<p style='font-size:40px;color:green;'>pass</p>");
+}
+else
+{
+document.write("fail");
+}
+}
+</script>
+</head>
+<body>
+<input type="button" value="click" onclick="display()">
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<script>
+class student
+{
+getdetails(name,rollno,marks,city)
+{
+this.name=name;
+this.roll_no=rollno;
+this.marks=marks;
+this.city=city;
+}
+displaydetails()
+{
+document.write(this.name+"<br>"+this.roll_no+"<br>"+this.marks+"<br>"+this.city+"<br>");
+}
+}
+</script>
+</head>
+<body>
+<script>
+s1=new student();
+s1.getdetails("gokul",5,90,"thuraiyur");
+s1.displaydetails();
+
+s2=new student();
+s2.getdetails("kumaran",8,86,"chennai");
+s2.displaydetails();
+</script>
+</body>
+</html>

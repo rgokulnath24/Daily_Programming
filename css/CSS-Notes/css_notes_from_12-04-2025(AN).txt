@@ -1,0 +1,73 @@
+Dated:12-04-2025
+
+CSS Notes:
+
+World Wide Web Consortium (W3C)
+
+p{color: blue}
+
+in the above style we noted and separate it in below:
+
+{}-declaration
+p-selector
+color-property
+blue-value
+;-semicolon
+
+css selector
+
+simple selector-select based on name,id,class
+
+combinator selector-select elements based on the relationship between them.
+
+There are four combinators in css:
+
+descendant combinators (space )
+child combinator(>)
+next sibling combinator(+)
+subsequent sibling combinator(~)
+
+
+Pseudo classes:
+
+used to style the special state of the element.
+
+syntax:
+
+selector:pseudo-class
+{
+property:value;
+}
+
+pseudo elements
+
+A pseudo element is used to style specific part of the pseudo element.
+
+selector::pseudo-element
+{
+property:value;
+}
+
+CSS/HTML support 140 standard color names.
+
+Margins are used to create space around elements, outside of any defined borders.
+
+
+-----------
+19-04-2025
+-----------
+
+
+All HTML elements can be considered as boxes.
+
+Block line element starts on a new line 
+Eg:<header><p><div><h1>
+
+Inline Elements
+An inline element DOES NOT start on a new line and only takes up as much width as necessary.
+
+This is an inline <span> element inside a paragraph.
+
+Examples of inline elements:<span>
+<a>
+<img>

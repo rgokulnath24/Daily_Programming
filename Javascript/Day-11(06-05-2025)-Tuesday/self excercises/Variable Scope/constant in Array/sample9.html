@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>constants in Array</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const movies=["meiazhagan","Herbie","The Big Baby"];
+movies[2]="Baby's-Day-Out";
+movies.push("CJ-7");
+let output="";
+for(i=0;i<movies.length;i++)
+{
+output+=movies[i]+"<br>";
+}
+document.getElementById("demo").innerHTML="<center>"+output+"</center>";
+</script>
+</body>
+</html>

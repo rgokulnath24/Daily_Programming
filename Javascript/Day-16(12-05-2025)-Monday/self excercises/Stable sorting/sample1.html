@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Stable Sorting</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let details=[{name:"gokul",age:23},
+{name:"ramu",age:23},
+{name:"somu",age:29},
+{name:"vicky",age:28},
+{name:"rahul",age:22},
+{name:"vinay",age:21},
+{name:"varun",age:20},
+{name:"akil",age:19}
+]
+details.sort((a1,a2)=>
+{
+if (a1.age >a2.age) return 1;
+else if (a1.age<a2.age) return -1;
+return 0;
+});
+
+
+let text="";
+
+details.forEach(kenny);
+
+function kenny(value)
+{
+text=text+value.name+" - "+value.age+"<br>";
+}
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>

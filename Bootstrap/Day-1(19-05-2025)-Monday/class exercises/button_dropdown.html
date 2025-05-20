@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Drop down</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    .dropdown-menu {
+      width: 100%;       /* force dropdown to fill parent */
+      min-width: unset;  /* remove default Bootstrap min-width */
+    }
+    .dropdown {
+      display: inline-block; /* keep button and dropdown aligned */
+    }
+  </style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary" data-toggle="dropdown">
+    Choose item <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li class="disabled"><a href="#">News</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Scripts for Bootstrap 3 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

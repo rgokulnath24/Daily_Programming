@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>Grid Area</title>
+<style>
+.container
+{
+display:grid;
+grid-template-areas:'minegame minegame ...';
+gap:2px;
+border:2px solid red;
+padding:10px;
+background:orange;
+}
+.container>div
+{
+background:#ffa;
+border:1px solid green;
+text-align:center;
+color:#004;
+padding:10px;
+font-weight:bold;
+font-family:verdana;
+}
+#final
+{
+grid-area:minegame;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div id="final">1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+</div>
+</body>
+</html>

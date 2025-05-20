@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<input type="button" value="click" onclick="arrange()"/>
+<p id="demo"></p>
+<script>
+let arr=[10,20,30,40,50];
+function arrange()
+{
+arr.sort(function(){ return 0.5 - Math.random()});
+document.getElementById("demo").innerHTML=arr;
+}
+</script>
+</body>
+</html>

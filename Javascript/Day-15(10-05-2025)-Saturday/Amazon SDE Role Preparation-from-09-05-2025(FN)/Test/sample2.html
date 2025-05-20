@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Number Reverse</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let num=parseInt(prompt("enter the number: "));   //123
+let reversed=0;
+while(num>0)
+{
+let number=num%10;            //123=>3=>321
+ 
+reversed=reversed*10+number;  //0+3=>3
+
+num=Math.floor(num/10);                   //123=>12
+}
+document.getElementById("demo").innerHTML=reversed;
+</script>
+</body>
+</html>

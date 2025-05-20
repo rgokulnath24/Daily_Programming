@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Math Max Highest Number</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+let arr=[10,223,30,1,50];
+let ele=maxarray(arr)
+function maxarray(arr)
+{
+  return Math.max.apply(null,arr);
+}
+document.getElementById("demo").innerHTML=ele;
+</script>
+</body>
+</html>

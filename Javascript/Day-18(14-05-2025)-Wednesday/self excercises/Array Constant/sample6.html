@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title>Constant Operator</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+const arr=["John","Martin","Marry"];
+arr=[1,2,3];
+//error:Uncaught TypeError: Assignment to constant variable.
+document.getElementById("demo").innerHTML=arr;
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>Javascript Arrays-Looping through an for each array</title>
+</head>
+<body>
+<p id="sample"></p>
+<script>
+const hollywood=["vinayak","JD","Parthiban"];
+let text="<ol>";
+hollywood.forEach(add);
+function add(value)
+{
+text=text+"<li>"+value+"</li>";
+}
+text=text+"</ol>";
+document.getElementById("sample").innerHTML=text;
+</script>
+</body>
+</html>

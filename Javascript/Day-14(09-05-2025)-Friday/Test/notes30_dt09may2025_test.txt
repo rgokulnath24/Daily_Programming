@@ -1,0 +1,10 @@
+1. what is operator. write about type of operators
+2. write a simple program using && operator
+3. write a simple program using || operator
+4. get a name from user in javascript, if the name is "aaa" print "arjun", if the input is "bbb" print "biiju" otherwise print "invalid" using switch in javascript
+5. get a name from user in javascript, if the name is "aaa" print "arjun", if the input is "bbb" print "biiju" otherwise print "invalid" using ladder if else in javascript
+6. get a pin number from user. if it is equal to 1234 print valid or otherwise invalid
+7. print 1 to 10 but ignore 3 and 6 using while loop, do while loop, for loop
+8. write a code for armstrong number
+9. write a code for palindrome
+10. write a code reverse a number
